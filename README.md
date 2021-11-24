@@ -21,4 +21,4 @@ Repo for collecting relevant technologies for Statistics Norway's techology rada
 After comitting to the csv file, go to: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
 #### Next:
-In the future, we will probably move on to BYOR (Bring Your Own Radar) provided here: [BYOR](https://github.com/thoughtworks/build-your-own-radar).
+In the future, we will probably move on to self-hosted BYOR (Bring Your Own Radar) provided here: [BYOR](https://github.com/thoughtworks/build-your-own-radar).
