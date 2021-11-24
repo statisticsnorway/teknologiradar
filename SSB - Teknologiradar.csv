@@ -7,3 +7,6 @@ Google Data catalog,Vurder,Analyse - formidling,FALSE,"Ny teknologi fra Google f
 TestTech2,Prøv ut,Klargjøring,TRUE,"Very cool tech!"
 TestTech3,Vurder,Analyse - formidling,FALSE,"Very cool tech!"
 TestTech4,Avvent,Utvikling - infrastruktur,TRUE,"Very cool tech!"
+Highcharts,Ta i bruk,Analyse - formidling,FALSE,"Fleksibelt grafbibliotek basert på Javascript <br>Mer info her:<a href=""https://www.highcharts.com/"">Highcharts</a>"
+Tableau,Prøv ut,Analyse - formidling,FALSE,"En Visual Analytics Platform, markedsledende innen Business Intelligence (BI)-plattformer. Integrerer med mange datakilder og bruker arbeidsbenk for å utarbeid interaktive datavisualiseringer og dashboards. <br>Mer info her:<a href=""https://www.tableau.com/"">Tableau</a>"
+Power BI,Prøv ut,Analyse - formidling,FALSE,"En Visual Analytics Platform, markedsledende innen Business Intelligence (BI)-plattformer. Integrerer med mange datakilder og bruker arbeidsbenk for å utarbeid interaktive datavisualiseringer og dashboards. <br>Mer info her:<a href=""https://powerbi.microsoft.com/en-us/what-is-power-bi/"">Power BI</a>"
