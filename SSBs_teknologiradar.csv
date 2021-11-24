@@ -1,5 +1,5 @@
 name,ring,quadrant,isNew,description
-TestTech1,assess,Datainnsamling og lagring,FALSE,"Very cool tech!"
-TestTech2,trial,platforms,TRUE,"Very cool tech!"
-TestTech3,adopt,tools,FALSE,"Very cool tech!"
-TestTech4,hold,languages-and-frameworks,TRUE,"Very cool tech!"
+TestTech1,assess,"Datainnsamling og lagring",FALSE,"Very cool tech!"
+TestTech2,trial,"Klargjøring",TRUE,"Very cool tech!"
+TestTech3,adopt,"Analyse og formidling",FALSE,"Very cool tech!"
+TestTech4,hold,"Utvikling og infrastruktur",TRUE,"Very cool tech!"
