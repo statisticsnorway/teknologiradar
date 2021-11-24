@@ -1,0 +1,5 @@
+name,ring,quadrant,isNew,description
+TestTech1,Assess,Techniques,FALSE,"<p>Very cool tech!</p>",
+TestTech2,Trial,Platforms,TRUE,"<p>Very cool tech!</p>",
+TestTech3,Adopt,Tools,FALSE,"<p>Very cool tech!</p>",
+TestTech4,Hold,languages-and-frameworks,TRUE,"<p>Very cool tech!</p>"
