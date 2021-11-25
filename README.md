@@ -1,6 +1,6 @@
 # SSB's teknologiradar
 
-Repo for collecting relevant technologies for Statistics Norway's techology radar. As for now we are utilizing Thoughtworks in-built radar to visualize our tech based on a .csv file provided in this repo. You can add new technologies to the csv file, just follow the guidelines provided below.
+Repo for collecting relevant technologies for Statistics Norway's techology radar. As for now we are utilizing Thoughtworks in-built radar to visualize our tech based on a .csv file provided in this repo. You can add new technologies to the csv file, just follow the guidelines provided below. Visit our radar here: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
 ### CSV file header structure:
 
