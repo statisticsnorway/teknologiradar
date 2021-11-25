@@ -14,7 +14,7 @@ Repo for collecting relevant technologies for Statistics Norway's techology rada
 
 `isNew = TRUE or FALSE`
 
-`description = A text string enclosed by "". Quotes in the string must also be escaped by "" (""YO""). HTML tags are allowed.`
+`description = A text string enclosed by "". HTML tags are allowed. Example: "This is a description <br> More info here:<a href=""https://example.com"">Example</a>"`
 
 ### Usage:
 
