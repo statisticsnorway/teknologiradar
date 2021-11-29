@@ -11,4 +11,4 @@ Delete4Fun,Avvent,Utvikling - infrastruktur,TRUE,"Teknologi for å slette infras
 Figma, Ta i bruk, Datainnsamling - lagring, FALSE, "Designverktøy for brukergrensesnitt som er integrert med Altinn3"
 NuGet, Prøv ut, Datainnsamling - lagring, FALSE, "Verktøy for kodedeling i .NET som kan brukes i Altinn. <br>Mer info her:<a href=""https://www.nuget.org"">NuGet</a> "
 Python Dash, Prøv ut, Analyse - formidling, FALSE, "Python bibliotek for visualisering <br>Mer info her:<a href=""https://www.figma.com"">Figma</a>"
-Terraform, Utvikling - infrastruktur, TRUE, "Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=""https://www.terraform.io"">Terraform</a>"
+Terraform, Prøv ut, Utvikling - infrastruktur, TRUE, "Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=""https://www.terraform.io"">Terraform</a>"
