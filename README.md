@@ -17,7 +17,7 @@ Repo for å samle relevante teknologier som skal være en del av SSBs teknologir
 
 <strong>isNew</strong> = `TRUE` eller `FALSE`
 
-<strong>description</strong> = Teksten må omsluttes med anførselstegn (""). HTML tagger er lov. Eksempel: "Dette er en beskrivelse <br> Mer info her:<a href=""https://example.com"">Eksempel</a>"`
+<strong>description</strong> = Teksten må omsluttes med anførselstegn (""). HTML tagger er lov. Eksempel: `"Dette er en beskrivelse <br> Mer info her:<a href=""https://example.com"">Eksempel</a>"`
 
 ### Hvordan sende inn forslag:
 
