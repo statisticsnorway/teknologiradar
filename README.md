@@ -1,26 +1,24 @@
 # SSB's teknologiradar
 
-Repo for collecting relevant technologies for Statistics Norway's techology radar. As for now we are utilizing Thoughtworks in-built radar to visualize our tech based on a .csv file provided in this repo. You can add new technologies to the csv file, just follow the guidelines provided below. Visit our radar here: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
+Repo for å samle relevante teknologier som skal være en del av SSBs teknologiradar. På nåværende tidspunkt bruker vi Thoughtworks radarløsning for å visualisere vår egen radar basert på en CSV fil som ligger i dette repoet. Alle i SSB kan bidra med forslag til teknologier. Forlagene vil vurderes løpende av redaksjonen for teknologiradaren. Sjekk ut radaren her: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
-### CSV file header structure:
 
-<strong>name,ring,quadrant,isNew,description</strong> 
+### CSV filstruktur (header):
 
-`name = Can be anything`
+| name 	| ring 	| quadrant 	| isNew 	| description 	|
+|------	|------	|----------	|-------	|-------------	|
+|      	|      	|          	|       	|             	|
 
-`ring = 'Ta i bruk', 'Prøv ut', 'Vurder', 'Avvent'`
+<strong>name</strong> = Navn på teknologien
 
-`quadrant = 'Datainnsamling - lagring', 'Klargjøring', 'Analyse - formidling', 'Utvikling - infrastruktur'`
+<strong>ring</strong> = `Ta i bruk'`, `Prøv ut`, `Vurder`, `Avvent`
 
-`isNew = TRUE or FALSE`
+<strong>quadrant</strong> = `Datainnsamling - lagring`, `Klargjøring`, `Analyse - formidling`, `Utvikling - infrastruktur`
 
-`description = A text string enclosed by "". HTML tags are allowed. Example: "This is a description <br> More info here:<a href=""https://example.com"">Example</a>"`
+<strong>isNew</strong> = `TRUE` eller `FALSE`
 
-### Usage:
+<strong>description</strong> = Teksten må omsluttes med anførselstegn (""). HTML tagger er lov. Eksempel: "Dette er en beskrivelse <br> Mer info her:<a href=""https://example.com"">Eksempel</a>"`
 
-After comitting changes to the csv file, go to: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
-<br><br>
-*PS. Sometimes, changes made to the csv file are not instantly visible in the radar, most likely caused by some type of caching at Thoughtworks. Just wait a few minutes and reload the radar.*
+### Hvordan sende inn forslag:
 
-#### Next:
-In the future, we will probably move on to self-hosted BYOR (Bring Your Own Radar) provided here: [BYOR](https://github.com/thoughtworks/build-your-own-radar).
+Du sender forslag til endringer ved å lage en "pull request" etter at du har gjort endringer i CSV filen basert på informasjonen over. Redaksjonen vil vurdere forslaget og gi deg tilbakemelding på om forlaget er godkjent eller ikke. Det er kun redaksjonen som gjør endringer i den pusliserte teknologiradaren.
