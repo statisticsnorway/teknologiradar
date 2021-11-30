@@ -26,7 +26,7 @@ Du sender forslag til endringer ved å lage en "pull request" etter at du har gj
 ### Hva betyr de forskjellige "ringene" i teknologiradaren
 
 Vi har oversatt ringene i radaren til Thoughtworks til norsk
-Adopt = `Ta i bruk`
-Trial = `Prøv ut`
-Assess = `Vurder`
-Hold = `Avvent`
+<br>Adopt = `Ta i bruk`
+<br>Trial = `Prøv ut`
+<br>Assess = `Vurder`
+<br>Hold = `Avvent`
