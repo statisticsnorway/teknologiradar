@@ -21,4 +21,4 @@ Repo for å samle relevante teknologier som skal være en del av SSBs teknologir
 
 ### Hvordan sende inn forslag:
 
-Du sender forslag til endringer ved å lage en "pull request" etter at du har gjort endringer i CSV filen basert på informasjonen over. Redaksjonen vil vurdere forslaget og gi deg tilbakemelding på om forlaget er godkjent eller ikke. Det er kun redaksjonen som gjør endringer i den pusliserte teknologiradaren.
+Du sender forslag til endringer ved å lage en "pull request" etter at du har gjort endringer i CSV filen basert på informasjonen over. Redaksjonen vil vurdere forslaget og gi deg tilbakemelding på om forlaget er godkjent eller ikke. Det er kun redaksjonen som publiserer endringer i teknologiradaren.
