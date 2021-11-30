@@ -11,7 +11,7 @@ Repo for å samle relevante teknologier som skal være en del av SSBs teknologir
 
 <strong>name</strong> = Navn på teknologien
 
-<strong>ring</strong> = `Ta i bruk'`, `Prøv ut`, `Vurder`, `Avvent`
+<strong>ring</strong> = `Ta i bruk`, `Prøv ut`, `Vurder`, `Avvent`
 
 <strong>quadrant</strong> = `Datainnsamling - lagring`, `Klargjøring`, `Analyse - formidling`, `Utvikling - infrastruktur`
 
