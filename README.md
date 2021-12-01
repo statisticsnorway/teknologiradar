@@ -10,19 +10,20 @@ Du kan sende forslag til teknologier ved å gjøre endringer i CSV filen basert 
 
 ### CSV filstruktur (header):
 
+*Kolonnene i filen må separeres med et komma tegn (,)*
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
 
-*Kolonnene i filen må separeres med et komma tegn (,)*
-
-<img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
+---
 
 ### Hva betyr de forskjellige *ringene* i teknologiradaren
 
-![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/mehran/rings.png)
+<img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
 
 *Ringene*, som også kan sees på som modenhetsnivåer, er oversatt til norsk fra Thoughtworks sin radar:
+
+![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/mehran/rings.png)
 
 `Ta i bruk` \
 Produktteam i SSB bør **TA I BRUK** denne teknologien/verktøyet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitektur.
