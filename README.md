@@ -1,10 +1,10 @@
 # SSB's teknologiradar
 
-Repo for å samle relevante teknologier som skal være en del av SSBs teknologiradar. På nåværende tidspunkt bruker vi Thoughtworks radarløsning for å visualisere vår egen radar basert på en CSV fil som ligger i dette repoet. Alle i SSB kan bidra med forslag til teknologier. Forlagene vil vurderes løpende av redaksjonen for teknologiradaren. Sjekk ut radaren her: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
+Repo for å samle teknologier som skal være en del av SSBs teknologiradar. På nåværende tidspunkt bruker vi Thoughtworks radarløsning for å visualisere vår egen radar basert på en CSV fil som ligger i dette repoet. Alle i SSB kan bidra med forslag til teknologier. Forlagene vil vurderes løpende av redaksjonen for teknologiradaren. Sjekk ut radaren her: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
-### Hvordan sende inn forslag:
+### Hvordan sende inn nye forslag til teknologier:
 
-Du kan sende forslag til teknologier ved å lage en "pull request" etter at du har gjort endringer i CSV filen basert på informasjonen under. Redaksjonen vil vurdere forslaget på en åpen måte, men det er kun redaksjonen som kan publiserer endringer i teknologiradaren. Det vil også være mulig å sende forslag til teknologier på SSBs Slack (Slack-kanal må opprettes)
+Du kan sende forslag til teknologier ved å gjøre endringer i CSV filen basert på informasjonen under, og deretter lage en **pull request** (PR). *Husk å lage en ny branch etter å ha klonet dette repoet*. Redaksjonen vil vurdere forslaget og publisere de nye endringene i teknologiradaren. Det er også være mulig å sende forslag til teknologier på [Slack](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
 
 ---
 
@@ -18,6 +18,8 @@ Du kan sende forslag til teknologier ved å lage en "pull request" etter at du h
 
 
 ### Hva betyr de forskjellige *ringene* i teknologiradaren
+
+![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/mehran/rings.png)
 
 *Ringene*, som også kan sees på som modenhetsnivåer, er oversatt til norsk fra Thoughtworks sin radar:
 
