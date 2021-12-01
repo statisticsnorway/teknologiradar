@@ -10,11 +10,8 @@ Du kan sende forslag til teknologier ved å lage en "pull request" etter at du h
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
-|Text |`Ta i bruk`<br />`Prøv ut`|`Datainnsamling - lagring`|`TRUE`|"Text"|
+|Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
 
-|-|`Prøv ut`|`Klargjøring`|`FALSE`|-|
-|-|`Vurder`|`Analyse - formidling`|-|-|
-|-|`Avvent`|`Utvikling - infrastruktur`|-|-|
 
 Feltene må være kommaseparerte.
 
