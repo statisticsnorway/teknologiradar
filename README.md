@@ -10,7 +10,7 @@ Radarløsningen vi bruker genererer radaren automatisk ved å lese en *csv* fil 
 
 ### Informajson om CSV filstruktur:
 
-For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som løsningen aksepterer. Nærmere beskrivelse av verdiene finner du i seksjonene lenger ned på siden.
+For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av verdiene finner du i seksjonene lenger ned på siden.
 *Kolonnene i csv filen må skilles med et komma tegn.*
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
