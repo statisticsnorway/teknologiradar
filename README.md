@@ -23,10 +23,13 @@ Repo for å samle relevante teknologier som skal være en del av SSBs teknologir
 
 Du sender forslag til endringer ved å lage en "pull request" etter at du har gjort endringer i CSV filen basert på informasjonen over. Redaksjonen vil vurdere forslaget og gi deg tilbakemelding på om forlaget er godkjent eller ikke. Det er kun redaksjonen som publiserer endringer i teknologiradaren.
 
-### Hva betyr de forskjellige "ringene" i teknologiradaren
+### Hva betyr de forskjellige *ringene* i teknologiradaren
 
-Vi har oversatt ringene i radaren til Thoughtworks til norsk
-<br>Adopt = `Ta i bruk`
-<br>Trial = `Prøv ut`
-<br>Assess = `Vurder`
-<br>Hold = `Avvent`
+*Ringene*, som også kan sees på som modenhetsnivåer, er oversatt til norsk fra Thoughtworks sin radar: \
+
+Adopt = `Ta i bruk` \
+Produktteam i SSB bør **TA I BRUK** denne teknologien/verktøyet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitektur. \
+
+Trial = `Prøv ut` \
+Assess = `Vurder` \
+Hold = `Avvent` \
