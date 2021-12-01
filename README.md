@@ -10,7 +10,7 @@ Radarløsningen vi bruker genererer radaren automatisk ved å lese en *csv* fil 
 
 ### Informajson om CSV filstruktur:
 
-For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av verdiene finner du i seksjonene lenger ned på siden.
+For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden.
 *Kolonnene i csv filen må skilles med et komma tegn.*
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
@@ -25,9 +25,9 @@ Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er repres
 
 <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
 
-## Beskrivelse av verdiene i *ringene* i teknologiradaren
+## Beskrivelse av *ringene* i teknologiradaren
 
-Hver *ring* kan sees på som et modenhetsnivå for teknologien.
+Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en teknologi innenfor et modenhetsnivå vil alltid være en krevende øvelse, og hvor kompetanse og erfaring vil være en viktig faktor i vurderingen.  
 
 ![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/mehran/rings.png)
 
@@ -43,4 +43,18 @@ Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange g
 `Avvent` \
 Teknologier i denne *ringen* har enten for lav modenhetsnivå eller er på vei "ut av markedet". Det anbefales ikke at man vurderer disse teknologiene for å løse sine behov.
 
-## Beskrivelse av verdiene i *quadrant* i teknologiradaren
+## Beskrivelse av *kvadrantene* i teknologiradaren
+
+*Kvadranetene* i radaren tilsvarer en kategori som avgrenser teknologienes bruksområde. Kategoriene gjenspeiler SSBs forretningsområdet slik det er skissert i SSBs virksomhetsmodell.
+
+`Datainnsamling - lagring` \
+Denne kategorien skal dekke alle teknologier og verktøy som faller inn under datainnsamling og datalagring.
+
+`Klargjøring` \
+Denne kategorien omfatter alle teknologier og verktøy som inngår i datatransformasjoner og dataprosessering.
+
+`Analyse - formidling` \
+Denne kategorien omfatter teknologier og verktøy innenfor dataanalyse, datautforsking og dataformidling
+
+`Utvikling - infrastruktur` \
+Denne kategorien er tiltenkt all annen teknologi fra et IT-utviklings og infrastruktur perspektiv.
