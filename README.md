@@ -4,13 +4,13 @@ I dette repoet vil vi samle teknologier som skal være en del av SSBs teknologir
 
 ### Hvordan bidra med forslag til teknologier:
 
-Radarløsningen vi bruker genererer radaren automatisk ved å lese en *csv* fil som ligger i dette repoet. Hvis du ønsker å bidra, kan sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*. For de som ikke er kjent med denne typen arbeidsflyt kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til teknologier i denne slackkanalen: [Slack kanal for SSBs teknologiradar](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
+Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv) som ligger i dette repoet. Hvis du ønsker å bidra, kan sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*. For de som ikke er kjent med denne typen arbeidsflyt kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til teknologier i denne slackkanalen: [Slack kanal for SSBs teknologiradar](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
 
 ---
 
 ### Informajson om CSV filstruktur:
 
-For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden.
+For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv), må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden.
 *Kolonnene i csv filen må skilles med et komma tegn.*
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
@@ -21,7 +21,7 @@ For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nede
 
 ### Hvordan lese teknologiradaren
 
-Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er representert av verdiene i kolonnene `ring` og `quadrant` i *csv* filen over.
+Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er representert av verdiene i kolonnene `ring` og `quadrant` i *csv* tabellen over.
 
 <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
 
