@@ -5,7 +5,9 @@ Repo for å samle relevante teknologier som skal være en del av SSBs teknologir
 ### Hvordan sende inn forslag:
 
 Du kan sende forslag til teknologier ved å lage en "pull request" etter at du har gjort endringer i CSV filen basert på informasjonen under. Redaksjonen vil vurdere forslaget på en åpen måte, men det er kun redaksjonen som kan publiserer endringer i teknologiradaren. Det vil også være mulig å sende forslag til teknologier på SSBs Slack (Slack-kanal må opprettes)
+
 ---
+
 ### CSV filstruktur (header):
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
@@ -13,6 +15,7 @@ Du kan sende forslag til teknologier ved å lage en "pull request" etter at du h
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
 
 <strong>Feltene må separeres med komma tegn (,).</strong>
+
 
 ### Hva betyr de forskjellige *ringene* i teknologiradaren
 
