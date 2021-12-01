@@ -37,5 +37,5 @@ Teknologier i denne *ringen* har stor utbredelse hos eksterne miljøer, men er i
 `Vurder` \
 Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange grunner til det, både positive og negative. Som regel vil det være noe usikkerhet knyttet til modenheten på disse teknologiene. Det anbefales derfor at teammedlemmer *vurderer* disse individuelt, f.eks. lokalt eller i et *devmiljø*, slik at man ikke bruker for mye tid på å utvikle CI/CD pipelines (staging/prodmiljø) hvor disse inngår.
 
-`Avvent`
+`Avvent` \
 Teknologier i denne *ringen* har enten for lav modenhetsnivå eller er på vei "ut av markedet". Det anbefales ikke at man vurderer disse teknologiene for å løse sine behov.
