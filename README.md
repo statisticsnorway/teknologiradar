@@ -26,7 +26,7 @@ Du sender forslag til endringer ved å lage en "pull request" etter at du har gj
 
 *Ringene*, som også kan sees på som modenhetsnivåer, er oversatt til norsk fra Thoughtworks sin radar:
 
-`Ta i bruk`
+`Ta i bruk` \
 Produktteam i SSB bør **TA I BRUK** denne teknologien/verktøyet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitektur.
 
 `Prøv ut` \
