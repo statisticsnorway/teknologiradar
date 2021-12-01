@@ -25,7 +25,7 @@ Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er repres
 
 <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
 
-## Beskrivelse av *ringene* i teknologiradaren
+#### Beskrivelse av *ringene* i teknologiradaren
 
 Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en teknologi innenfor et modenhetsnivå vil alltid være en krevende øvelse, og hvor kompetanse og erfaring vil være en viktig faktor i vurderingen.  
 
@@ -43,7 +43,7 @@ Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange g
 `Avvent` \
 Teknologier i denne *ringen* har enten for lav modenhetsnivå eller er på vei "ut av markedet". Det anbefales ikke at man vurderer disse teknologiene for å løse sine behov.
 
-## Beskrivelse av *kvadrantene* i teknologiradaren
+#### Beskrivelse av *kvadrantene* i teknologiradaren
 
 *Kvadranetene* i radaren tilsvarer en kategori som avgrenser teknologienes bruksområde. Kategoriene gjenspeiler SSBs forretningsområdet slik det er skissert i SSBs virksomhetsmodell.
 
