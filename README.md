@@ -24,15 +24,18 @@ For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nede
 Radaren består av fire ringer:
 <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
 
-Hver *Ring* kan sees på som et modenhetsnivå for teknologien.
+Hver *ring* kan sees på som et modenhetsnivå for teknologien.
 
 ![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/mehran/rings.png)
 
 `Ta i bruk` \
-Produktteam i SSB bør **ta i bruk** denne teknologien/verktøyet i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.
+Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Produktteamene i SSB bør **ta i bruk** disse teknologiene/verktøyene i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.
 
 `Prøv ut` \
-
+Teknologier i denne *ringen* har stor utbredelse hos eksterne miljøer, men er ikke godt nok kjent i SSB. Det anbefales at teamene *prøver ut* disse teknologiene for å se om de vil dekke behovene. Det kan f.eks. være fornuftig å få erfaring med disse i et stagingmiljø, før man vurderer å rulle disse ut i produksjonsmiljøet.
 
 `Vurder` \
+Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange grunner til det, både positive og negative. Som regel vil det være noe usikkerhet knyttet til modenheten på disse teknologiene. Det anbefales derfor at teammedlemmer *vurderer* disse individuelt, f.eks. lokalt eller i et *devmiljø*, slik at man ikke bruker for mye tid på å utvikle CI/CD pipelines (staging/prodmiljø) hvor disse inngår.
+
 `Avvent`
+Teknologier i denne *ringen* har enten for lav modenhetsnivå eller er på vei "ut av markedet". Det anbefales ikke at man vurderer disse teknologiene for å løse sine behov.
