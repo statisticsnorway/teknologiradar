@@ -1,4 +1,4 @@
-# SSB's teknologiradar
+# SSB's teknologiradar <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="200"/>
 
 Repo for å samle teknologier som skal være en del av SSBs teknologiradar. På nåværende tidspunkt bruker vi Thoughtworks radarløsning for å visualisere vår egen radar basert på en CSV fil som ligger i dette repoet. Alle i SSB kan bidra med forslag til teknologier. Forlagene vil vurderes løpende av redaksjonen for teknologiradaren. Sjekk ut radaren her: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
@@ -14,7 +14,7 @@ Du kan sende forslag til teknologier ved å gjøre endringer i CSV filen basert 
 |-------|-------|-----------|---------|---------------|
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
 
-<strong>Feltene må separeres med komma tegn (,).</strong>
+*Kolonnene i filen må separeres med et komma tegn (,)*
 
 
 ### Hva betyr de forskjellige *ringene* i teknologiradaren
