@@ -19,10 +19,12 @@ For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nede
 
 ---
 
-### Beskrivelse av verdiene i *ringene* i teknologiradaren
+### Hvordan lese teknologiradaren
 
-Radaren består av fire ringer:
+Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er representert av verdiene i kolonnene `ring` og `quadrant` i *csv* filen over.
 <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
+
+## Beskrivelse av verdiene i *ringene* i teknologiradaren
 
 Hver *ring* kan sees på som et modenhetsnivå for teknologien.
 
@@ -39,3 +41,5 @@ Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange g
 
 `Avvent` \
 Teknologier i denne *ringen* har enten for lav modenhetsnivå eller er på vei "ut av markedet". Det anbefales ikke at man vurderer disse teknologiene for å løse sine behov.
+
+## Beskrivelse av verdiene i *quadrant* i teknologiradaren
