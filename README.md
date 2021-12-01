@@ -10,7 +10,12 @@ Du kan sende forslag til teknologier ved å lage en "pull request" etter at du h
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
+|Text |`Ta i bruk`|`Datainnsamling - lagring`|`TRUE`|"Text"|
+|-|`Prøv ut`|`Klargjøring`|`FALSE`|-|
+|-|`Vurder`|`Analyse - formidling`|-|-|
+|-|`Avvent`|`Utvikling - infrastruktur`|-|-|
 
+Feltene må være kommaseparerte.
 
 <strong>name</strong> = Navn på teknologien
 
