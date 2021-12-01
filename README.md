@@ -6,8 +6,7 @@ Repo for å samle relevante teknologier som skal være en del av SSBs teknologir
 ### CSV filstruktur (header):
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
-|------	|------	|----------	|-------	|-------------	|
-|      	|      	|          	|       	|             	|
+
 
 <strong>name</strong> = Navn på teknologien
 
@@ -25,11 +24,11 @@ Du sender forslag til endringer ved å lage en "pull request" etter at du har gj
 
 ### Hva betyr de forskjellige *ringene* i teknologiradaren
 
-*Ringene*, som også kan sees på som modenhetsnivåer, er oversatt til norsk fra Thoughtworks sin radar: \
+*Ringene*, som også kan sees på som modenhetsnivåer, er oversatt til norsk fra Thoughtworks sin radar:
 
-Adopt = `Ta i bruk` \
-Produktteam i SSB bør **TA I BRUK** denne teknologien/verktøyet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitektur. \
+`Ta i bruk`
+Produktteam i SSB bør **TA I BRUK** denne teknologien/verktøyet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitektur.
 
-Trial = `Prøv ut` \
-Assess = `Vurder` \
-Hold = `Avvent` \
+`Prøv ut` \
+`Vurder` \
+`Avvent`
