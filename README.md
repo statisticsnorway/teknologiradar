@@ -22,6 +22,7 @@ For å gjøre endringer i *csv* filen, må man følge en fastsatt struktur. Nede
 ### Hvordan lese teknologiradaren
 
 Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er representert av verdiene i kolonnene `ring` og `quadrant` i *csv* filen over.
+
 <img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
 
 ## Beskrivelse av verdiene i *ringene* i teknologiradaren
