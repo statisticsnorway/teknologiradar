@@ -10,7 +10,8 @@ Du kan sende forslag til teknologier ved å gjøre endringer i CSV filen basert 
 
 ### CSV filstruktur (header):
 
-*Kolonnene i filen må separeres med et komma tegn (,)*
+*Kolonnene i csv filen må separeres med et komma tegn (,)*
+
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
