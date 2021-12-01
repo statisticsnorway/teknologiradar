@@ -12,19 +12,7 @@ Du kan sende forslag til teknologier ved å lage en "pull request" etter at du h
 |-------|-------|-----------|---------|---------------|
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
 
-
-Feltene må være kommaseparerte.
-
-<strong>name</strong> = Navn på teknologien
-
-<strong>ring</strong> = `Ta i bruk`, `Prøv ut`, `Vurder`, `Avvent`
-
-<strong>quadrant</strong> = `Datainnsamling - lagring`, `Klargjøring`, `Analyse - formidling`, `Utvikling - infrastruktur`
-
-<strong>isNew</strong> = `TRUE` eller `FALSE`
-
-<strong>description</strong> = Teksten må omsluttes med anførselstegn (""). HTML tagger er lov. Eksempel: `"Dette er en beskrivelse <br> Mer info her:<a href=""https://example.com"">Eksempel</a>"`
-
+<strong>Feltene må separeres med komma tegn (,).</strong>
 
 ### Hva betyr de forskjellige *ringene* i teknologiradaren
 
