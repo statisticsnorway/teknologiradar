@@ -3,7 +3,7 @@ Google Cloud Storge,Ta i bruk,Datainnsamling - lagring,FALSE,"Kostnadseffektiv l
 Google PubSub,Ta i bruk,Datainnsamling - lagring,FALSE,"Moden og stabil teknologi for innmsaling av data som hendelser i en strøm. Kan også brukes som meldingsformidler eller Køsystem. Flere prosjekter i SSB bruker PubSub.<br>Mer info her:<a href=""https://cloud.google.com/pubsub"">PubSub</a>"
 Google BigQuery,Prøv ut,Datainnsamling - lagring,FALSE,"Populær og superskalerbar databaseteknologi for lagring av data. Kan også brukes til klargjøring og utforsking av data. BQ støtter SQL. Kan kombineres med flere tjenester fra Google.<br>Mer info her:<a href=""https://cloud.google.com/bigquery"">BigQuery</a>"
 Google DataStore,Vurder,Datainnsamling - lagring,FALSE,"Skalerbar teknologi for NoSQL databaser<br>Mer info her:<a href=""https://cloud.google.com/datastore"">DataStore</a>"
-Google CloudSQL,Ta i bruk,Datainnsamling - lagring,"Selvbetejent relasjonsdatabseløsning fra Google som tilbyr MySQL,PostgreSQL og SQL Server <br>Mer info her:<a href=""https://cloud.google.com/sql"">CloudSQL</a>"
+Google CloudSQL,Ta i bruk,Datainnsamling - lagring,FALSE,"Selvbetejent relasjonsdatabseløsning fra Google som tilbyr MySQL,PostgreSQL og SQL Server <br>Mer info her:<a href=""https://cloud.google.com/sql"">CloudSQL</a>"
 MOVEit,Avvent,Datainnsamling - lagring,FALSE,"Overføring av filer på bakkenivå"
 Figma,Vurder,Datainnsamling - lagring,FALSE,"Designverktøy for brukergrensesnitt som er integrert med Altinn3"
 NuGet,Prøv ut,Datainnsamling - lagring,FALSE,"Verktøy for kodedeling i .NET som kan brukes i Altinn. <br>Mer info her:<a href=""https://www.nuget.org"">NuGet</a>"
