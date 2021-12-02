@@ -11,7 +11,7 @@ Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil
 ### Informajson om CSV filstruktur:
 
 For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv), må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden. \
-*NB: Kolonnene/feltene i csv filen må skilles med et komma tegn og det kan ikke være noe mellomrom (whitespace) mellom kolonnene*
+*NB: Kolonnene/feltene i csv filen må skilles med et komma tegn og det kan ikke være noe mellomrom (whitespace) mellom kolonnene.*
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
