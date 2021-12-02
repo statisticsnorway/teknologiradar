@@ -23,13 +23,13 @@ For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/tekn
 
 Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er representert av verdiene i kolonnene `ring` og `quadrant` i *csv* tabellen over.
 
-<img src="https://github.com/statisticsnorway/teknologiradar/blob/mehran/radar.png" alt="teknologiradar" width="150"/>
+<img src="https://github.com/statisticsnorway/teknologiradar/blob/main/radar.png" alt="teknologiradar" width="150"/>
 
 ### Beskrivelse av *ringene* i teknologiradaren
 
 Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en teknologi innenfor et modenhetsnivå vil alltid være en krevende øvelse, og hvor kompetanse og erfaring vil være en viktig faktor i vurderingen.  
 
-![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/mehran/rings.png)
+![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/main/rings.png)
 
 `Ta i bruk` \
 Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Produktteamene i SSB bør **ta i bruk** disse teknologiene/verktøyene i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.
