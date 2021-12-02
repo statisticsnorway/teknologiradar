@@ -8,6 +8,9 @@ JupyterLab,Ta i bruk,Klargjøring,FALSE,"Notebook basert kodemiljø for å skriv
 Google Dataflow,Vurder,Klargjøring,FALSE,"DataFlow bygger på Apache Beam teknologi som egner seg godt for å lage automatiserte batch og streaming pipelines (klargjøringsjobber). DataFlow er skalerer godt, tilbyr egen ""forvaltningsfri"" infrastruktur med for distribuert prosessering. Kan også integreres med Notebook teknologi for å skrive produksjonskode.<br>Mer info her:<a href=""https://cloud.google.com/dataflow"">DataFlow</a>"
 Grafana,Ta i bruk,Utvikling - infrastruktur,FALSE,"Teknologi for å visulalisere data fra mange ulike kilder. Mest brukt til å visualisere logger og metrikker. Brukerne lage egne fleksible dashboard. <br>Mer info her:<a href=""https://grafana.com"">Grafana</a>"
 Delete4Fun,Avvent,Utvikling - infrastruktur,TRUE,"Teknologi for å slette infrastruktur for moroskyld!"
-Highcharts,Ta i bruk,Analyse - formidling,FALSE,"Fleksibelt grafbibliotek basert på Javascript <br>Mer info her:<a href=""https://www.highcharts.com/"">Highcharts
+Highcharts,Ta i bruk,Analyse - formidling,FALSE,"Fleksibelt grafbibliotek basert på Javascript <br>Mer info her:<a href=""https://www.highcharts.com/"">Highcharts</a>"
 Tableau,Prøv ut,Analyse - formidling,FALSE,"En Visual Analytics Platform, markedsledende innen Business Intelligence (BI)-plattformer. Integrerer med mange datakilder og bruker arbeidsbenk for å utarbeid interaktive datavisualiseringer og dashboards. <br>Mer info her:<a href=""https://www.tableau.com/"">Tableau
 Power BI,Prøv ut,Analyse - formidling,FALSE,"En Visual Analytics Platform, markedsledende innen Business Intelligence (BI)-plattformer. Integrerer med mange datakilder og bruker arbeidsbenk for å utarbeid interaktive datavisualiseringer og dashboards. <br>Mer info her:<a href=""https://powerbi.microsoft.com/en-us/what-is-power-bi/"">Power BI</a>"
+MOVEit,Ta i bruk,Datainnsamling - lagring,FALSE,"Overføring av filer på bakkenivå"
+Github,Ta i bruk,Utvikling - infrastruktur,FALSE,"Teknologi for å koordinere prosjekter"
+
