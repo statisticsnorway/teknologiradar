@@ -29,6 +29,6 @@ D3.js,Avvent,Analyse - Formidling,FALSE,"Javascript bibliotek, data-driven docum
 Datawrapper,Avvent,Analyse - Formidling,FALSE,"Verktøy for å lage interaktive diagrammer, mye brukt av mediaaktører. <br>Mer info her:<a href=""https://www.datawrapper.de/"">Datawrapper</a>"
 Grafana,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Teknologi for å visulalisere data fra mange ulike kilder. Mest brukt til å visualisere logger og metrikker. Brukerne lage egne fleksible dashboard. <br>Mer info her:<a href=""https://grafana.com"">Grafana</a>"
 Github,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Teknologi for å koordinere prosjekter"
-Terraform,Prøv ut,Utvikling - Infrastruktur,FALSE,"Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=""https://www.terraform.io"">Terraform</a>"
+Terraform,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=""https://www.terraform.io"">Terraform</a>"
 Cloud Composer,Vurder,Utvikling - Infrastruktur, FALSE,"Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python.<br>Mer info her:<a href=""https://cloud.google.com/composer"">Cloud Composer</a>"
 MOVEit,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Overføring av filer på bakkenivå"
