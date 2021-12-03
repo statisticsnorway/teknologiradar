@@ -68,6 +68,6 @@ Denne kategorien er tiltenkt all annen teknologi fra et IT-utviklings og infrast
 
 Det er mulig å visualisere endringer i teknologiradaren. Dette kan være nyttig når man f.eks. ønsker å vise hvilke teknologier som er helt nye eller om en eksisterende teknologi i radaren har endret modenhetsnivå (*ring*). Eller at man ønsker å visualisere at det ikke har vært noen endringer.
 
-Ved å sette kolonnen `isNew` med boolsk verdi `TRUE` eller `FALSE` i csv filen, kan man nettopp styre dette. Teknologiene som vises i radaren vil få foskjellige *ikoner* avhengig av hvilken verdi man setter.
+Ved å sette kolonnen `isNew` med boolsk verdi `TRUE` eller `FALSE` i csv filen, kan man nettopp styre dette. Teknologiene som vises i radaren vil få forskjellige *ikoner* avhengig av hvilken verdi man setter.
 
 ![isNew](https://github.com/statisticsnorway/teknologiradar/blob/main/isNew.png)
