@@ -11,12 +11,16 @@ Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil
 ### Informajson om CSV filstruktur:
 
 For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv), må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden. \
-*NB: Kolonnene/feltene i csv filen må skilles med et komma tegn og det kan ikke være noe mellomrom (whitespace) mellom kolonnene.*
+*NB: Kolonnene/feltene i csv filen må skilles med et komma tegn og det kan ikke være noe mellomrom (whitespace) mellom kolonnene. Verdiene i kolonnene ring, quadrant og isNew er case-sensitive.*
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
-|Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - lagring`<br />`Klargjøring`<br />`Analyse - formidling`<br />`Utvikling - infrastruktur`|`TRUE`<br />`FALSE`|"Text"|
+|Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - Lagring`<br />`Klargjøring`<br />`Analyse - Formidling`<br />`Utvikling - Infrastruktur`|`TRUE`<br />`FALSE`|"Text og/eller HTML"|
 
+**Eksempel:** \
+```
+Tech1,Vurder,Klargjøring,TRUE,"En kuul tech!<a href=""https://eksempel.no/"">Tech1</a>"
+```
 ---
 
 ### Hvordan lese teknologiradaren
@@ -32,7 +36,7 @@ Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en t
 ![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/main/rings.png)
 
 `Ta i bruk` \
-Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Produktteamene i SSB bør **ta i bruk** disse teknologiene/verktøyene i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.
+Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Produktteamene i SSB bør **ta i bruk** disse teknologiene/verktøyene i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. *Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.*
 
 `Prøv ut` \
 Teknologier i denne *ringen* har stor utbredelse hos eksterne miljøer, men er ikke godt nok kjent i SSB. Det anbefales at teamene *prøver ut* disse teknologiene for å se om de vil dekke behovene. Det kan f.eks. være fornuftig å få erfaring med disse i et stagingmiljø, før man vurderer å rulle disse ut i produksjonsmiljøet.
@@ -47,14 +51,14 @@ Teknologier i denne *ringen* har enten for lav modenhetsnivå eller er på vei "
 
 *Kvadranetene* i radaren tilsvarer en kategori som avgrenser teknologienes bruksområde. Kategoriene gjenspeiler SSBs forretningsområdet slik det er skissert i SSBs virksomhetsmodell.
 
-`Datainnsamling - lagring` \
+`Datainnsamling - Lagring` \
 Denne kategorien skal dekke alle teknologier og verktøy som faller inn under datainnsamling og datalagring.
 
 `Klargjøring` \
 Denne kategorien omfatter alle teknologier og verktøy som inngår i datatransformasjoner og dataprosessering.
 
-`Analyse - formidling` \
+`Analyse - Formidling` \
 Denne kategorien omfatter teknologier og verktøy innenfor dataanalyse, datautforsking og dataformidling
 
-`Utvikling - infrastruktur` \
+`Utvikling - Infrastruktur` \
 Denne kategorien er tiltenkt all annen teknologi fra et IT-utviklings og infrastruktur perspektiv.
