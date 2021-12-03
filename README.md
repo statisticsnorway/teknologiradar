@@ -17,7 +17,7 @@ For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/tekn
 |-------|-------|-----------|---------|---------------|
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - Lagring`<br />`Klargjøring`<br />`Analyse - Formidling`<br />`Utvikling - Infrastruktur`|`TRUE`<br />`FALSE`|"Text og/eller HTML"|
 
-**Eksempel:** \
+**Eksempel:**
 ```
 Tech1,Vurder,Klargjøring,TRUE,"En kuul tech!<a href=""https://eksempel.no/"">Tech1</a>"
 ```
