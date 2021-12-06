@@ -78,4 +78,4 @@ Det er viktig at radaren ikke fylles opp med for mange teknologier slik at den b
 
 1. En kort introduksjon av hvilket problem teknolgien løser.
 2. Styker og svakheter ved teknologien som fremhever hvorfor den er valgt.
-3. En Lenke til mer informasjon om teknolgien.
+3. En lenke til hvor man finner mer informasjon om teknolgien.
