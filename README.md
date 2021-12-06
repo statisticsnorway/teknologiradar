@@ -71,3 +71,11 @@ Det er mulig å visualisere endringer i teknologiradaren. Dette kan være nyttig
 Ved å sette kolonnen `isNew` med boolsk verdi `TRUE` eller `FALSE` i csv filen, kan man nettopp styre dette. Teknologiene som vises i radaren vil få forskjellige *ikoner* avhengig av hvilken verdi man setter.
 
 ![isNew](https://github.com/statisticsnorway/teknologiradar/blob/main/isNew.png)
+
+### Beste praksis for å beskrive en teknologi i radaren
+
+Det er viktig at radaren ikke fylles opp med for mange teknologier slik at den blir uoversiktelig. Det er også viktig at det er gode beskrivelser av teknologiene som legges inn, slik at ansatte i SSB føler at de får nytte av radaren ved at de forstår hensikten med den utvalgte teknologien. Denne typen informasjon skal legges inn i **description** feltet i *csvfilen*. Vi ønsker at alle beskrivelser begynner med:
+
+1. En kort introduksjon av hvilket problem teknolgien løser.
+2. Styker og svakheter ved teknologien som fremhever hvorfor den er valgt.
+3. En Lenke til mer informasjon om teknolgien.
