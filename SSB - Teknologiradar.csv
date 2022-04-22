@@ -30,4 +30,4 @@ Github,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Teknologi for å koordinere pr
 Terraform,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=""https://www.terraform.io"">Terraform</a>"
 MOVEit,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Overføring av filer på bakkenivå"
 Apache Spark,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. <br>Mer info her:<a href=""https://spark.apache.org"">Apache Spark</a>"
-NuGet,Prøv ut,Utvikling - Infrastruktur,FALSE,"Verktøy for kodedeling i .NET som kan brukes i Altinn. <br>Mer info her:<a href=""https://www.nuget.org"">NuGet</a>"
+NuGet,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .Net baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=""https://www.nuget.org"">NuGet</a>"
