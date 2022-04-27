@@ -1,4 +1,4 @@
-# SSBs teknologiradar
+# [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
 I dette repoet vil vi samle teknologier som skal være en del av SSBs teknologiradar. På nåværende tidspunkt bruker vi [Thoughtworks](https://www.thoughtworks.com/radar) radarløsning for å visualisere vår egen radar. Alle i SSB kan bidra med forslag til teknologier. Forlagene vil vurderes løpende av en redaksjon bestående av personer fra flere fagområder i SSB. Sjekk ut radaren her: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
 
@@ -40,13 +40,13 @@ Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en t
 Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Produktteamene i SSB bør ta i bruk disse teknologiene/verktøyene i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. **Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.**
 
 `Prøv ut` \
-Teknologier i denne *ringen* har stor utbredelse hos eksterne miljøer, men er ikke godt nok kjent i SSB. Det anbefales at teamene prøver ut disse teknologiene for å se om de vil dekke behovene. Det kan f.eks. være fornuftig å få erfaring med disse i et stagingmiljø, før man vurderer å rulle disse ut i produksjonsmiljøet.
+Teknologier i denne *ringen* har stor utbredelse hos eksterne miljøer, men er ikke godt nok kjent i SSB. Det er generelt liten usikkerhet knyttet til disse teknologiene. Det anbefales at teamene prøver ut disse teknologiene. Det kan f.eks. være fornuftig å få erfaring med disse i et stagingmiljø, før man vurderer å rulle disse ut i produksjonsmiljøet.
 
 `Vurder` \
 Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange grunner til det, både positive og negative. Som regel vil det være noe usikkerhet knyttet til modenheten på disse teknologiene. Det anbefales derfor at teammedlemmer eksperimenterer med disse individuelt, f.eks. lokalt eller i et *devmiljø*. På denne måten kaster man ikke bort verdifull tid  på å utvikle CI/CD pipelines (staging/prodmiljø), før man vet noe mer konkret om teknologien.
 
 `Avvent` \
-Teknologier i denne *ringen* har enten for lav modenhetsnivå,  er på vei "ut av markedet" eller en annen årsak. Det anbefales ikke at man satser på disse teknologiene for å løse sine behov.
+Det er knyttet stor usikkerhet til teknologiene i denne *ringen*. Det kan være flere grunner til at modenheten vurderes som lav. F.eks. at teknologien er på vei "ut av markedet". Det anbefales å vente med å ta i bruk disse teknologiene.
 
 ### Beskrivelse av *kvadrantene* i teknologiradaren
 
