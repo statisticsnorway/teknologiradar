@@ -6,7 +6,7 @@ I dette repoet vil vi samle teknologier som skal være en del av SSBs teknologir
 ### Hvordan bidra med forslag til teknologier:
 
 Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv) som ligger i dette repoet. Hvis du ønsker å bidra, kan sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*.
-For de som ikke er kjent med denne typen arbeidsflyt, kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til teknologier i denne kanalen på (https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white): [SSBs teknologiradar på Slack](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
+For de som ikke er kjent med denne typen arbeidsflyt, kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til teknologier i denne slackkanalen: <a href="https://ssb-norge.slack.com/archives/C02NRC2V83Z"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"></a>
 
 ---
 
