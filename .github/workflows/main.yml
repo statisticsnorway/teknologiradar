@@ -19,9 +19,11 @@ jobs:
         id: badge
         with:
           debug: False
-          directory: ./
-          badge: cloc.svg
-          ignore: 'README|*.png'
+          directory: './'
+          badge: 'cloc.svg'
+          patterns: "*.csv"
+          ignore: "*.md|*.png"
+          badge_label: "Antall teknologier"
   
       - name: Commit badge
         uses: stefanzweifel/git-auto-commit-action@v4
