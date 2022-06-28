@@ -36,3 +36,4 @@ Terraform,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Infrastruktur som kode som 
 MOVEit,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Overføring av filer på bakkenivå"
 Apache Spark,Ta i bruk,Utvikling - Infrastruktur,FALSE,"Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. <br>Mer info her:<a href=""https://spark.apache.org"">Apache Spark</a>"
 NuGet,Ta i bruk,Utvikling - Infrastruktur,TRUE,"Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .Net baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=""https://www.nuget.org"">NuGet</a>"
+Poetry,Prøv ut,Utvikling - Infrastruktur,TRUE,"Brukervennlig Python verktøy for å håndtere avhengigheter og publisere pakker til artifaktlager <br>Mer info her:<a href=""https://python-poetry.org/"">Poetry</a>"
