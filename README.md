@@ -18,7 +18,7 @@ For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/tekn
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
 |-------|-------|-----------|---------|---------------|
-|Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Datainnsamling - Lagring`<br />`Klargjøring`<br />`Analyse - Formidling`<br />`Utvikling - Infrastruktur`|`TRUE`<br />`FALSE`|"Text og/eller HTML"|
+|Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Programmering`<br />`Infrastruktur`<br />`DevOps`<br />`Sikkerhet`|`TRUE`<br />`FALSE`|"Text og/eller HTML"|
 
 **Eksempel:**
 ```
@@ -34,7 +34,7 @@ Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er repres
 
 ### Beskrivelse av *ringene* i teknologiradaren
 
-Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en teknologi innenfor et modenhetsnivå vil alltid være en krevende øvelse, og hvor kompetanse og erfaring vil være en viktig faktor i vurderingen.  
+Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en teknologi innenfor et modenhetsnivå vil alltid være en krevende øvelse, og hvor kompetanse og erfaring vil være en viktig faktor i vurderingen.
 
 ![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/main/rings.png)
 
