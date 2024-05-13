@@ -1,19 +1,19 @@
 
-# [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
+# SSBs teknologiradar
 
-I dette repoet vil vi samle teknologier som skal være en del av SSBs teknologiradar. På nåværende tidspunkt bruker vi [Thoughtworks](https://www.thoughtworks.com/radar) radarløsning for å visualisere vår egen radar. Alle i SSB kan bidra med forslag til teknologier. Forlagene vil vurderes løpende av en redaksjon bestående av personer fra flere fagområder i SSB. Sjekk ut radaren her: [SSBs teknologiradar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fstatisticsnorway%2Fteknologiradar%2Fmain%2FSSB%2520-%2520Teknologiradar.csv)
+En teknologiradar skal gi veiledning på egnethet av ulike teknologier. Den har en rolle både i å beskrive nåværende praksis og erfaringer samtidig som den former fremtidige teknologivalg. Det primære publikumet er utviklere i IT avdelingen i SSB. Alle utviklere er oppfordret til å holde radaren oppdatert, om det er et nytt teknologi å vurdere, eller en gammel en man synes burde fases ut. Forslagene vurderes løpende av Tech Lead forumet i SSB. Radaren er hostet på SSBs Backstage instans: [SSBs teknologiradar](https://backstage.test.ssb.cloud.nais.io/tech-radar)
 
-### Hvordan bidra med forslag til teknologier:
+## Hvordan bidra med forslag til teknologier
 
-Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv) som ligger i dette repoet. Hvis du ønsker å bidra, kan sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*.
+Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil](./teknologiradar.csv) som ligger i dette repoet. Hvis du ønsker å bidra, kan sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*.
 
-For de som ikke er kjent med denne typen arbeidsflyt, kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til oss på <a href="https://ssb-norge.slack.com/archives/C02NRC2V83Z"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"></a>
+For de som ikke er kjent med denne typen arbeidsflyt, kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til oss på [<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack logo for lenke til #adr kanal.">](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
 
 ---
 
-### Informajson om CSV filstruktur:
+## Informasjon om CSV filstruktur
 
-For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/teknologiradar/blob/main/SSB%20-%20Teknologiradar.csv), må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden. \
+For å gjøre endringer i [*csv* filen]("./teknologiradar.csv"), må man følge en fastsatt struktur. Nedenfor ser du en visuell fremstilling av *csv* filens *header* og hvilke verdier som aksepteres i de forskjellige kolonnene. Nærmere beskrivelse av hva disse verdiene betyr, finner du i seksjonene lenger ned på siden. \
 *NB: Kolonnene/feltene i csv filen må skilles med et komma tegn og det kan ikke være noe mellomrom (whitespace) mellom kolonnene. Verdiene i kolonnene ring, quadrant og isNew er case-sensitive.*
 
 | name 	| ring 	| quadrant 	| isNew 	| description 	|
@@ -21,22 +21,24 @@ For å gjøre endringer i [*csv* filen](https://github.com/statisticsnorway/tekn
 |Text |`Ta i bruk`<br />`Prøv ut`<br />`Vurder`<br />`Avvent`|`Programmering`<br />`Infrastruktur`<br />`DevOps`<br />`Sikkerhet`|`TRUE`<br />`FALSE`|"Text og/eller HTML"|
 
 **Eksempel:**
+
+```csv
+Tech1,Vurder,Programmering,TRUE,"En kuul tech!<a href=""https://eksempel.no/"">Tech1</a>"
 ```
-Tech1,Vurder,Klargjøring,TRUE,"En kuul tech!<a href=""https://eksempel.no/"">Tech1</a>"
-```
+
 ---
 
-### Hvordan lese teknologiradaren
+## Hvordan lese teknologiradaren
 
 Radaren består av fire ringer og er delt inn i fire kvadranter. Disse er representert av verdiene i kolonnene `ring` og `quadrant` i *csv* tabellen over.
 
-<img src="https://github.com/statisticsnorway/teknologiradar/blob/main/radar.png" alt="teknologiradar" width="150"/>
+![Ringer i teknologiradaren](./radar.png)
 
 ### Beskrivelse av *ringene* i teknologiradaren
 
 Hver *ring* kan sees på som et modenhetsnivå for teknologien. Å plassere en teknologi innenfor et modenhetsnivå vil alltid være en krevende øvelse, og hvor kompetanse og erfaring vil være en viktig faktor i vurderingen.
 
-![Ringer i teknologiradaren](https://github.com/statisticsnorway/teknologiradar/blob/main/rings.png)
+![Ringer i teknologiradaren](./rings.png)
 
 `Ta i bruk` \
 Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Produktteamene i SSB bør ta i bruk disse teknologiene/verktøyene i produksjonsmiljøet. Teknologier innenfor dette modenhetsnivået har vært testet og vurdert for konkrete bruksområder, og er mest sannsynlig allerede satt i produksjon hos et eller flere teams. **Team som velger å ta i bruk disse teknologiene må fortsatt gjøre egne vurderinger knyttet til forretningsbehov, informasjonssikkerhet og arkitekturbeslutninger.**
@@ -54,17 +56,17 @@ Det er knyttet stor usikkerhet til teknologiene i denne *ringen*. Det kan være 
 
 *Kvadranetene* i radaren tilsvarer en kategori som avgrenser teknologienes bruksområde. Kategoriene gjenspeiler SSBs forretningsområdet slik det er skissert i SSBs virksomhetsmodell.
 
-`Datainnsamling - Lagring` \
-Denne kategorien skal dekke alle teknologier og verktøy som faller inn under datainnsamling og datalagring.
+`Programmering` \
+Kodespråk, rammeverk, biblioteker, testrammeverk osv.
 
-`Klargjøring` \
-Denne kategorien omfatter alle teknologier og verktøy som inngår i datatransformasjoner og dataprosessering.
+`DevOps` \
+Verktøy og systemer som inngår ikke i selve kodeartifakt, men bidrar til kvalitetskontroll, utrulling, monitorering osv.
 
-`Analyse - Formidling` \
-Denne kategorien omfatter teknologier og verktøy innenfor dataanalyse, datautforsking og dataformidling
+`Infrastruktur` \
+Tredjeparts systemer som programvaresystemer utviklet i SSB er avhengig på under kjøretid.
 
-`Utvikling - Infrastruktur` \
-Denne kategorien er tiltenkt all annen teknologi fra et IT-utviklings og infrastruktur perspektiv.
+`Sikkerhet` \
+Alt som er relatert til sikkerhet.
 
 ### Syngliggjøre endringer i teknologiradaren
 
