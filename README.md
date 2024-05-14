@@ -1,7 +1,7 @@
 
 # SSBs teknologiradar
 
-En teknologiradar skal gi veiledning på egnethet av ulike teknologier. Den har en rolle både i å beskrive nåværende praksis og erfaringer samtidig som den former fremtidige teknologivalg. Det primære publikumet er utviklere i IT avdelingen i SSB. Alle utviklere er oppfordret til å holde radaren oppdatert, om det er en ny teknologi som burde legges til, eller en gammel som burde fases ut. Forslagene vurderes løpende av Tech Lead forumet i SSB. Radaren er hostet på SSBs Backstage instans: [SSBs teknologiradar](https://backstage.test.ssb.cloud.nais.io/tech-radar)
+En teknologiradar skal gi veiledning på egnethet av prefererte teknologier. Den har en rolle både i å beskrive nåværende praksis og erfaringer samtidig som den former fremtidige teknologivalg. Det primære publikumet er utviklere i IT avdelingen i SSB. Alle utviklere er oppfordret til å holde radaren oppdatert, om det er en ny teknologi som burde legges til, eller en gammel som burde fases ut. Forslagene vurderes løpende av Tech Lead forumet i SSB. Radaren er hostet på SSBs Backstage instans: [SSBs teknologiradar](https://backstage.test.ssb.cloud.nais.io/tech-radar)
 
 ## Hvordan bidra med forslag til teknologier
 
