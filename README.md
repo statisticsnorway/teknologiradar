@@ -1,11 +1,11 @@
 
 # SSBs teknologiradar
 
-En teknologiradar skal gi veiledning på egnethet av ulike teknologier. Den har en rolle både i å beskrive nåværende praksis og erfaringer samtidig som den former fremtidige teknologivalg. Det primære publikumet er utviklere i IT avdelingen i SSB. Alle utviklere er oppfordret til å holde radaren oppdatert, om det er et nytt teknologi å vurdere, eller en gammel en man synes burde fases ut. Forslagene vurderes løpende av Tech Lead forumet i SSB. Radaren er hostet på SSBs Backstage instans: [SSBs teknologiradar](https://backstage.test.ssb.cloud.nais.io/tech-radar)
+En teknologiradar skal gi veiledning på egnethet av ulike teknologier. Den har en rolle både i å beskrive nåværende praksis og erfaringer samtidig som den former fremtidige teknologivalg. Det primære publikumet er utviklere i IT avdelingen i SSB. Alle utviklere er oppfordret til å holde radaren oppdatert, om det er en ny teknologi som burde legges til, eller en gammel som burde fases ut. Forslagene vurderes løpende av Tech Lead forumet i SSB. Radaren er hostet på SSBs Backstage instans: [SSBs teknologiradar](https://backstage.test.ssb.cloud.nais.io/tech-radar)
 
 ## Hvordan bidra med forslag til teknologier
 
-Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil](./teknologiradar.csv) som ligger i dette repoet. Hvis du ønsker å bidra, kan sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*.
+Radarløsningen vi bruker genererer radaren automatisk ved å lese en [*csv* fil](./teknologiradar.csv) som ligger i dette repoet. Hvis du ønsker å bidra, kan du sende forslag til teknologier ved å klone dette repoet, lage en ny *branch*, gjøre endringer i *csv* filen, og deretter lage en *pull request* (PR). Redaksjonen vil vurdere forslaget og publisere de nye endringene i repoets *main branch*.
 
 For de som ikke er kjent med denne typen arbeidsflyt, kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til oss på [<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack logo for lenke til #adr kanal.">](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
 
@@ -60,10 +60,10 @@ Det er knyttet stor usikkerhet til teknologiene i denne *ringen*. Det kan være 
 Kodespråk, rammeverk, biblioteker, testrammeverk osv.
 
 `DevOps` \
-Verktøy og systemer som inngår ikke i selve kodeartifakt, men bidrar til kvalitetskontroll, utrulling, monitorering osv.
+Verktøy og systemer som ikke inngår i selve kodeartifakten, men bidrar til kvalitetskontroll, utrulling, monitorering osv.
 
 `Infrastruktur` \
-Tredjeparts systemer som programvaresystemer utviklet i SSB er avhengig på under kjøretid.
+Tredjeparts systemer/plattform som programvaresystemer utviklet i SSB er avhengig av under kjøretid.
 
 `Sikkerhet` \
 Alt som er relatert til sikkerhet.
