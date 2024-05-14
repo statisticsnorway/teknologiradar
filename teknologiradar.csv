@@ -12,5 +12,5 @@ Terraform,Ta i bruk,Programmering,FALSE,"Infrastruktur som kode som gjør at man
 MOVEit,Ta i bruk,Infrastruktur,FALSE,"Overføring av filer på bakkenivå"
 Apache Spark,Ta i bruk,Programmering,FALSE,"Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. <br>Mer info her:<a href=""https://spark.apache.org"">Apache Spark</a>"
 NuGet,Ta i bruk,DevOps,TRUE,"Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .Net baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=""https://www.nuget.org"">NuGet</a>"
-Poetry,Prøv ut,DevOps,TRUE,"Brukervennlig Python verktøy for å håndtere avhengigheter og publisere pakker til artifaktlager <br>Mer info her:<a href=""https://python-poetry.org/"">Poetry</a>"
-Google Artifact Registry,Prøv ut,DevOps,TRUE,"Lagring og distribusjon av Python-pakker som er interne i SSB. <br>Generelt om GAR for Python: <a href=""https://cloud.google.com/artifact-registry/docs/python"">GAR Python</a><br>Implementasjonen i skyplattformen: <a href=""https://docs.bip.ssb.no/develop/artifact_registry/#set-up-artifact-registry-for-python"">SSB Developer Guide</a>"
+Poetry,Ta i bruk,DevOps,TRUE,"Brukervennlig verktøy for å håndtere Python prosjekter. Utbredt bruk både blant utviklerteam og statistikkteam. <br>Mer info her:<a href=""https://python-poetry.org/"">Poetry</a>"
+Google Artifact Registry,Ta i bruk,DevOps,TRUE,"Lagring og distribusjon av artifakter i SSB.
