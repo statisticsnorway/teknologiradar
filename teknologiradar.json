@@ -1,0 +1,242 @@
+{
+  "title": "SSB IT teknologiradar",
+
+  "rings": [
+    { "id": "bruk", "name": "Bruk", "color": "#93c47d" },
+    { "id": "vurder", "name": "Vurder", "color": "#fbdb84" },
+    { "id": "avstå", "name": "Avstå", "color": "#efafa9" }
+  ],
+  "quadrants": [
+    { "id": "programmering", "name": "Programmering" },
+    { "id": "infrastruktur", "name": "Infrastruktur" },
+    { "id": "devops", "name": "DevOps" },
+    { "id": "sikkerhet", "name": "Sikkerhet" }
+  ],
+  "entries": [
+    {
+      "key": "Google Cloud Storage",
+      "title": "Google Cloud Storage",
+      "ring": "bruk",
+      "quadrant": "infrastruktur",
+      "description": "Kostnadseffektiv Lagringsteknologi som støtter mange funksjoner som f.eks. versjonering, automatisk tidsinstilit sletting, sikkerhet m.m.<br>Mer info her:<a href=\"https://cloud.google.com/storage\">GCS</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Google PubSub",
+      "title": "Google PubSub",
+      "ring": "bruk",
+      "quadrant": "infrastruktur",
+      "description": "Moden og stabil teknologi for innmsaling av data som hendelser i en strøm. Kan også brukes som meldingsformidler eller Køsystem. Flere prosjekter i SSB bruker PubSub.<br>Mer info her:<a href=\"https://cloud.google.com/pubsub\">PubSub</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Google BigQuery",
+      "title": "Google BigQuery",
+      "ring": "vurder",
+      "quadrant": "infrastruktur",
+      "description": "Populær og superskalerbar databaseteknologi for lagring av data. Kan også brukes til klargjøring og utforsking av data. Egner seg først og fremst for OLAP (Online Analytical processing) i motseting til OLTP (Online transaction processing). For sistnevnte bør man vurdere andre teknologier. BQ støtter SQL og kan kombineres med flere tjenester fra Google, noe som kan være en fordel i enkelte situasjoner.<br>Mer info her:<a href=\"https://cloud.google.com/bigquery\">BigQuery</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Google DataStore",
+      "title": "Google DataStore",
+      "ring": "avstå",
+      "quadrant": "infrastruktur",
+      "description": "Skalerbar teknologi for NoSQL databaser<br>Mer info her:<a href=\"https://cloud.google.com/datastore\">DataStore</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Google CloudSQL",
+      "title": "Google CloudSQL",
+      "ring": "bruk",
+      "quadrant": "infrastruktur",
+      "description": "Selvbetejent relasjonsdatabseløsning fra Google som tilbyr MySQL,PostgreSQL og SQL Server <br>Mer info her:<a href=\"https://cloud.google.com/sql\">CloudSQL</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Cloud Composer",
+      "title": "Cloud Composer",
+      "ring": "avstå",
+      "quadrant": "infrastruktur",
+      "description": "Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python. Med denne teknologien kan man automatisere produksjonsløp og samtidig få et brukergrensesnitt hvor man kan monitorere kjøringene. <br>Mer info her:<a href=\"https://cloud.google.com/composer\">Cloud Composer</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Google Cloud DLP",
+      "title": "Google Cloud DLP",
+      "ring": "avstå",
+      "quadrant": "infrastruktur",
+      "description": "Relativ ny teknologi fra Google for å verne sensitive data. Kan f.eks. brukes til pseudonymisering av data. <br>Mer info her:<a href=\"https://cloud.google.com/dlp\">DLP</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Grafana",
+      "title": "Grafana",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Teknologi for å visulalisere data fra mange ulike kilder. Mest brukt til å visualisere logger og metrikker. Brukerne lage egne fleksible dashboard. <br>Mer info her:<a href=\"https://grafana.com\">Grafana</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Github",
+      "title": "Github",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Teknologi for å koordinere prosjekter",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Terraform",
+      "title": "Terraform",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=\"https://www.terraform.io\">Terraform</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "MOVEit",
+      "title": "MOVEit",
+      "ring": "bruk",
+      "quadrant": "infrastruktur",
+      "description": "Overføring av filer på bakkenivå",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Apache Spark",
+      "title": "Apache Spark",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. <br>Mer info her:<a href=\"https://spark.apache.org\">Apache Spark</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "NuGet",
+      "title": "NuGet",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .Net baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=\"https://www.nuget.org\">NuGet</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Poetry",
+      "title": "Poetry",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Brukervennlig verktøy for å håndtere Python prosjekter. Utbredt bruk både blant utviklerteam og statistikkteam. <br>Mer info her:<a href=\"https://python-poetry.org/\">Poetry</a>",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Google Artifact Registry",
+      "title": "Google Artifact Registry",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Lagring og distribusjon av artifakter i SSB.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-05-16",
+          "description": "Inisiell plassering"
+        }
+      ]
+    }
+  ]
+}
