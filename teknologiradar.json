@@ -18,13 +18,13 @@
       "title": "Google Cloud Storage",
       "ring": "bruk",
       "quadrant": "infrastruktur",
-      "description": "Kostnadseffektiv Lagringsteknologi som støtter mange funksjoner som f.eks. versjonering, automatisk tidsinstilit sletting, sikkerhet m.m.<br>Mer info her:<a href=\"https://cloud.google.com/storage\">GCS</a>",
+      "description": "Kostnadseffektiv lagringsteknologi som støtter mange funksjoner som f.eks. versjonering, automatisk tidsinstilit sletting, sikkerhet m.m.<br>Mer info her:<a href=\"https://cloud.google.com/storage\">GCS</a>",
       "timeline": [
         {
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -39,7 +39,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -54,7 +54,7 @@
           "moved": 0,
           "ringId": "vurder",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -69,7 +69,7 @@
           "moved": 0,
           "ringId": "avstå",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -84,7 +84,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -99,7 +99,7 @@
           "moved": 0,
           "ringId": "avstå",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -114,7 +114,7 @@
           "moved": 0,
           "ringId": "avstå",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -129,7 +129,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -144,7 +144,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -159,7 +159,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -174,7 +174,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -189,7 +189,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -198,13 +198,13 @@
       "title": "NuGet",
       "ring": "bruk",
       "quadrant": "devops",
-      "description": "Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .Net baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=\"https://www.nuget.org\">NuGet</a>",
+      "description": "Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .NET baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=\"https://www.nuget.org\">NuGet</a>",
       "timeline": [
         {
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -219,7 +219,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -234,7 +234,7 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Inisiell plassering"
+          "description": "Initiell plassering"
         }
       ]
     }
