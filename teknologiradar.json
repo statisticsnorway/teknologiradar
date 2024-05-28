@@ -168,7 +168,7 @@
       "title": "Spring Framework",
       "ring": "avstå",
       "quadrant": "programmering",
-      "description": "Rammeverk for utvikling av backendtjenester. Spring er et stort rammeverk med mye magi som kan være komplisert å konfigurere riktig. Vurder derfor Micronaut før man tar i bruk Spring på nye tjenester. <br> Brukes av SUP og Freg",
+      "description": "Rammeverk for utvikling av backendtjenester. Spring er et stort rammeverk med mye magi som kan være komplisert å konfigurere riktig. Vurder derfor Micronaut før man tar i bruk Spring på nye tjenester. Brukes av SUP og Freg",
       "timeline": [
         {
           "moved": 0,
