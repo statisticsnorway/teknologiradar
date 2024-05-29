@@ -18,7 +18,7 @@
       "title": "Google Cloud Storage",
       "ring": "bruk",
       "quadrant": "infrastruktur",
-      "description": "Kostnadseffektiv lagringsteknologi som støtter mange funksjoner som f.eks. versjonering, automatisk tidsinstilit sletting, sikkerhet m.m.<br>Mer info her:<a href=\"https://cloud.google.com/storage\">GCS</a>",
+      "description": "Kostnadseffektiv lagringsteknologi som støtter mange funksjoner som f.eks. versjonering, automatisk tidsinstilit sletting, sikkerhet m.m. Mer info her: https://cloud.google.com/storage",
       "timeline": [
         {
           "moved": 0,
@@ -33,7 +33,7 @@
       "title": "Google PubSub",
       "ring": "bruk",
       "quadrant": "infrastruktur",
-      "description": "Moden og stabil teknologi for innmsaling av data som hendelser i en strøm. Kan også brukes som meldingsformidler eller Køsystem. Flere prosjekter i SSB bruker PubSub.<br>Mer info her:<a href=\"https://cloud.google.com/pubsub\">PubSub</a>",
+      "description": "Moden og stabil teknologi for innmsaling av data som hendelser i en strøm. Kan også brukes som meldingsformidler eller Køsystem. Flere prosjekter i SSB bruker PubSub. Mer info her: https://cloud.google.com/pubsub",
       "timeline": [
         {
           "moved": 0,
@@ -48,7 +48,7 @@
       "title": "Google BigQuery",
       "ring": "vurder",
       "quadrant": "infrastruktur",
-      "description": "Populær og superskalerbar databaseteknologi for lagring av data. Kan også brukes til klargjøring og utforsking av data. Egner seg først og fremst for OLAP (Online Analytical processing) i motseting til OLTP (Online transaction processing). For sistnevnte bør man vurdere andre teknologier. BQ støtter SQL og kan kombineres med flere tjenester fra Google, noe som kan være en fordel i enkelte situasjoner.<br>Mer info her:<a href=\"https://cloud.google.com/bigquery\">BigQuery</a>",
+      "description": "Populær og superskalerbar databaseteknologi for lagring av data. Kan også brukes til klargjøring og utforsking av data. Egner seg først og fremst for OLAP (Online Analytical processing) i motseting til OLTP (Online transaction processing). For sistnevnte bør man vurdere andre teknologier. BQ støtter SQL og kan kombineres med flere tjenester fra Google, noe som kan være en fordel i enkelte situasjoner. Mer info her: https://cloud.google.com/bigquery",
       "timeline": [
         {
           "moved": 0,
@@ -63,7 +63,7 @@
       "title": "Google DataStore",
       "ring": "avstå",
       "quadrant": "infrastruktur",
-      "description": "Skalerbar teknologi for NoSQL databaser<br>Mer info her:<a href=\"https://cloud.google.com/datastore\">DataStore</a>",
+      "description": "Skalerbar teknologi for NoSQL databaser. Mer info her: https://cloud.google.com/datastore",
       "timeline": [
         {
           "moved": 0,
@@ -78,7 +78,7 @@
       "title": "Google CloudSQL",
       "ring": "bruk",
       "quadrant": "infrastruktur",
-      "description": "Selvbetejent relasjonsdatabseløsning fra Google som tilbyr MySQL,PostgreSQL og SQL Server <br>Mer info her:<a href=\"https://cloud.google.com/sql\">CloudSQL</a>",
+      "description": "Selvbetejent relasjonsdatabseløsning fra Google som tilbyr MySQL,PostgreSQL og SQL Server. Mer info her: https://cloud.google.com/sql",
       "timeline": [
         {
           "moved": 0,
@@ -93,7 +93,7 @@
       "title": "Cloud Composer",
       "ring": "avstå",
       "quadrant": "infrastruktur",
-      "description": "Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python. Med denne teknologien kan man automatisere produksjonsløp og samtidig få et brukergrensesnitt hvor man kan monitorere kjøringene. <br>Mer info her:<a href=\"https://cloud.google.com/composer\">Cloud Composer</a>",
+      "description": "Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python. Med denne teknologien kan man automatisere produksjonsløp og samtidig få et brukergrensesnitt hvor man kan monitorere kjøringene. Mer info her: https://cloud.google.com/composer",
       "timeline": [
         {
           "moved": 0,
@@ -108,7 +108,7 @@
       "title": "Google Cloud DLP",
       "ring": "avstå",
       "quadrant": "infrastruktur",
-      "description": "Relativ ny teknologi fra Google for å verne sensitive data. Kan f.eks. brukes til pseudonymisering av data. <br>Mer info her:<a href=\"https://cloud.google.com/dlp\">DLP</a>",
+      "description": "Relativ ny teknologi fra Google for å verne sensitive data. Kan f.eks. brukes til pseudonymisering av data. Mer info her: https://cloud.google.com/dlp",
       "timeline": [
         {
           "moved": 0,
@@ -123,7 +123,7 @@
       "title": "Grafana",
       "ring": "bruk",
       "quadrant": "devops",
-      "description": "Teknologi for å visulalisere data fra mange ulike kilder. Mest brukt til å visualisere logger og metrikker. Brukerne lage egne fleksible dashboard. <br>Mer info her:<a href=\"https://grafana.com\">Grafana</a>",
+      "description": "Teknologi for å visulalisere data fra mange ulike kilder. Mest brukt til å visualisere logger og metrikker. Brukerne lage egne fleksible dashboard. Mer info her: https://grafana.com",
       "timeline": [
         {
           "moved": 0,
@@ -153,7 +153,7 @@
       "title": "Terraform",
       "ring": "bruk",
       "quadrant": "programmering",
-      "description": "Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt <br>Mer info her:<a href=\"https://www.terraform.io\">Terraform</a>",
+      "description": "Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt. Mer info her: https://www.terraform.io",
       "timeline": [
         {
           "moved": 0,
@@ -198,7 +198,7 @@
       "title": "Apache Spark",
       "ring": "bruk",
       "quadrant": "programmering",
-      "description": "Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. <br>Mer info her:<a href=\"https://spark.apache.org\">Apache Spark</a>",
+      "description": "Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. Mer info her: https://spark.apache.org",
       "timeline": [
         {
           "moved": 0,
@@ -213,7 +213,7 @@
       "title": "NuGet",
       "ring": "bruk",
       "quadrant": "devops",
-      "description": "Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .NET baserte prosjekter både i PxWeb og Altinn. <br>Mer info her:<a href=\"https://www.nuget.org\">NuGet</a>",
+      "description": "Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .NET baserte prosjekter både i PxWeb og Altinn. Mer info her: https://www.nuget.org",
       "timeline": [
         {
           "moved": 0,
@@ -228,7 +228,7 @@
       "title": "Poetry",
       "ring": "bruk",
       "quadrant": "devops",
-      "description": "Brukervennlig verktøy for å håndtere Python prosjekter. Utbredt bruk både blant utviklerteam og statistikkteam. <br>Mer info her:<a href=\"https://python-poetry.org/\">Poetry</a>",
+      "description": "Brukervennlig verktøy for å håndtere Python prosjekter. Utbredt bruk både blant utviklerteam og statistikkteam. Mer info her: https://python-poetry.org",
       "timeline": [
         {
           "moved": 0,
