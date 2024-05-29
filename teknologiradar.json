@@ -164,6 +164,21 @@
       ]
     },
     {
+      "key": "Spring-framework",
+      "title": "Spring Framework",
+      "ring": "avstå",
+      "quadrant": "programmering",
+      "description": "Rammeverk for utvikling av backendtjenester. Spring er et stort rammeverk med mye magi som kan være komplisert å konfigurere riktig. Vurder derfor Micronaut før man tar i bruk Spring på nye tjenester. Brukes av SUP og Freg",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2024-05-28",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "MOVEit",
       "title": "MOVEit",
       "ring": "bruk",
@@ -237,6 +252,6 @@
           "description": "Initiell plassering"
         }
       ]
-    }
+    }    
   ]
 }
