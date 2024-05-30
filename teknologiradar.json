@@ -164,6 +164,51 @@
       ]
     },
     {
+      "key": "Python",
+      "title": "Python",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Python er et høynivå programmeringsspråk kjente for enkel syntaks og lettleselighet. Det er et hovedverktøyet i SSB for produksjon av statistikk, og er derfor ofte relevant for utvikling av både tjenester og biblioteker. Det har et modent økosystem i PyPI som forenkler og tilgjengeliggjør hurtig og kompleks databehandling gjennom f.eks. PyArrow, Pandas, Numpy og Polars. \n\n **Fordeler**: \n- Enkel og intuitiv syntax \n- Rikt og modent økosystem \n- Mye kompetanse på huset \n\n**Ulemper:**\n- Dynamisk typing\n- Trenger du funksjonalitet som ikke PyPI-pakker støtter er python ofte tregere enn alternativene",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "fastapi",
+      "title": "FastAPI",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "FastAPI er et moderne web-rammeverk bygget på toppen av starlette og Pydantic for å skrive APIer i python. FastAPI er bygget for å støtte asynkron programmering og autogenerering av OpenAPI dokumentasjon.\n\n**Fordeler**:\n- Høy ytelse med asynkrone endepunkter\n- Oppfordrer til god typesjekking med pydantic\n- God typing fører til god dokumentasjon\n\n**Ulemper**:\n- ASGI er mindre modent enn WSGI\n- Forvaltes i hovedsak av en enkelt person\n",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Flask",
+      "title": "Python",
+      "ring": "avstå",
+      "quadrant": "programmering",
+      "description": "Flask er et web-rammeverk for å skrive APIer og webapplikasjoner i python. Det gir utviklere en grunnleggende verktøykasse uten å være for opinionated, og har et stort og modent økosystem av utvidelser.\n\n**Fordeler**:\n- Fleksibelt og enkelt\n- Veldig modent og har mange utvidelser\n\n**Ulemper**:\n- Mangler innebygd moderne funksjonalitet\n- Ikke like egnet for async\n",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Spring-framework",
       "title": "Spring Framework",
       "ring": "avstå",
