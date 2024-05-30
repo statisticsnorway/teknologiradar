@@ -123,7 +123,7 @@
       "title": "Google Container Registry",
       "ring": "avstå",
       "quadrant": "devops",
-      "description": "Google Container Registry (GCR) er et register for docker containere i google cloud plattformen. Den er tett integrert med google cloud plattformen og lar utviklere lagre og administere docker images. Vi er nødt til å bevege oss bort fra å brukke denne ettersom GCR deprekeres til fordel for GAR (Google Artifact Registry).",
+      "description": "Google Container Registry (GCR) er et register for docker containere i google cloud plattformen. Den er tett integrert med google cloud plattformen og lar utviklere lagre og administere docker images. Vi er nødt til å bevege oss bort fra å brukke denne ettersom GCR avvikles til fordel for GAR (Google Artifact Registry).",
       "timeline": [
         {
           "moved": 0,
