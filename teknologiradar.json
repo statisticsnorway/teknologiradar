@@ -228,7 +228,7 @@
       "title": "Terraform",
       "ring": "bruk",
       "quadrant": "infrastruktur",
-      "description": "Infrastruktur som kode språk. Utbredt bruk både på Dapla og blant ekspertteam.\nEndret til en BSL lisens som gjør fremtiden som åpenkildeprosjekt tvilsom.\nMer info her: https://www.terraform.io",
+      "description": "Infrastruktur som kode språk. Utbredt bruk både på Dapla og blant ekspertteam.\nProsjektet endret til en BSL lisens, og er ikke lenger åpen kildekode, men 'kilde tilgjengelig'.",
       "timeline": [
         {
           "moved": 0,
