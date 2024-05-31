@@ -359,6 +359,36 @@
       ]
     },
     {
+      "key": "Nais",
+      "title": "Nais",
+      "ring": "bruk",
+      "quadrant": "infrastruktur",
+      "description": "Selvbetjent, smidig applikasjonsplattform utviklet av NAV.\nSSB har tatt en strategisk avgjørelse å satse på å ta Nais i bruk. Ideelt sett tilbudt av Nav under PaaS modellen, men selv om dette ikke er mulig på grunn av byråkratiske detaljer skal SSB drifte plattformen på egen hånd.\nMer informasjon: https://nais.io/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-31",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "BIP",
+      "title": "BIP (Byråets IT Plattform)",
+      "ring": "avstå",
+      "quadrant": "infrastruktur",
+      "description": "Applikasjonsplattform utviklet hos SSB. Utviklingen har ikke holdt fart med Nais, som tilbyr en langt bedre brukeropplevelse. Det var beregnet som en altfor stor investering å fortsette utviklingen av BIP, særlig når applikasjonutvikling er ikke SSBs kjernevirksomhet.",
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "avstå",
+          "date": "2024-05-31",
+          "description": "Erstattes av Nais."
+        }
+      ]
+    },
+    {
       "key": "Google Artifact Registry",
       "title": "Google Artifact Registry",
       "ring": "bruk",
@@ -372,6 +402,6 @@
           "description": "Initiell plassering"
         }
       ]
-    }    
+    }
   ]
 }
