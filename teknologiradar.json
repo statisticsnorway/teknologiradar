@@ -227,13 +227,28 @@
       "key": "Terraform",
       "title": "Terraform",
       "ring": "bruk",
-      "quadrant": "programmering",
-      "description": "Infrastruktur som kode som gjør at man kan bygge, endre og versjonere infrastruktur raskt og effektivt. Mer info her: https://www.terraform.io",
+      "quadrant": "infrastruktur",
+      "description": "Infrastruktur som kode språk. Utbredt bruk både på Dapla og blant ekspertteam.\nProsjektet endret til en BSL lisens, og er ikke lenger åpen kildekode, men 'kilde tilgjengelig'.",
       "timeline": [
         {
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "OpenTofu",
+      "title": "OpenTofu",
+      "ring": "vurder",
+      "quadrant": "infrastruktur",
+      "description": "Infrastruktur som kode språk. Fork av Terraform tilgjengelig under MPL-2.0 lisens.\nMer info her: https://opentofu.org/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2024-05-31",
           "description": "Initiell plassering"
         }
       ]
