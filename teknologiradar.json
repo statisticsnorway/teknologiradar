@@ -314,6 +314,81 @@
       ]
     },
     {
+      "key": "Typescript",
+      "title": "Typescript",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "TypeScript er et superset av javascript med statisk typesjekking. TypeScript transpireres til vanlig JavaScript, slik at koden kan kjøres hvor som helst JavaScript kan kjøres, enten det er i nettleseren eller på serveren.\n\n**Fordeler**:\n- Rikt og modent økosystem\n- Hjelper med å fange feil tidligere\n\n**Ulemper**:\n- Trenger et byggesteg og er ofte mer komplisert å sette opp enn javascript\n- Manglende støtte i npm pakker eller rammeverk kan forringe opplevelsen",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Javascript",
+      "title": "Javascript",
+      "ring": "avstå",
+      "quadrant": "programmering",
+      "description": "Javascript er et åpenkildekode programmeringsspråk. Det er et dynamisk språk som kan kjøre i både nettleseren og på server og er derfor bredt brukt i webutvikling. Om man starter et nytt prosjekt, eller ønsker å refaktorere en eksisterende kodebase, burde man heller velge typescript.\n\n**Fordeler**:\n- Rikt og modent økosystem\n- Fleksibelt og raskt til f.eks. prototyping\n\n**Ulemper**:\n- Mangel på typesjekking gir en dårligere utvikleropplevelse",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "React",
+      "title": "React",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "React er et populært JavaScript-bibliotek for å bygge brukergrensesnitt for enkeltsideapplikasjoner. Det er best kjent for sin komponentbaserte arkitektur og bruk av en virtuell DOM for å forbedre ytelsen.\n\n**Fordeler**:\n- Rikt og modent økosystem og utviklermiljø\n- God støtte for Typescript\n\n**Ulemper**:\n- JSX/TSX kan oppleves rotete for noen\n- Kompleks læringskurve i begynnelsen",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "SvelteKit",
+      "title": "SvelteKit",
+      "ring": "vurder",
+      "quadrant": "programmering",
+      "description": "SvelteKit er et moderne javascript rammeverk for å bygge både fullstack-applikasjoner og enkeltsideapplikasjoner. Svelte-komponenter kompileres til javascript og trenger derfor ingen virtuell DOM.\n**Fordeler**:\n- Tilbyr en enkel og gjenkjennelig modell med ekte reaktivitet\n- Fullstack løsning med tilgang til SSR(Server-side rendering)\n\n**Ulemper**:\n- Mindre brukt enn react, om man bygger en enkeltsideapplikasjon\n- Mindre støtte i verktøyer og biblioteker enn react",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Vite",
+      "title": "Vite",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Vite er et moderne byggverktøy og utviklingsserver for frontend-prosjekter, kjent for sin raske ytelse og enkle oppsett. Det er spesielt designet for raskere oppstartstider og raskere utviklingssykluser.\n**Fordeler**:\n- Rask og god utvikleropplevelse\n- Støtter plugins for alle de store rammeverkene\n- Enkel konfigurasjon\n\n**Ulemper**:\n- Mindre modent økosystem\n- Kan ha kompabilitets problemer med eldre prosjekter",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "MOVEit",
       "title": "MOVEit",
       "ring": "bruk",
