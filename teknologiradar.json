@@ -269,6 +269,21 @@
       ]
     },
     {
+      "key": "Java",
+      "title": "Java",
+      "ring": "avstå",
+      "quadrant": "programmering",
+      "description": "Java er et høynivå programmeringsspråk som kjører på JVM (Java Virtual Machine). Det er svært mange applikasjoner som er utviklet med Java i SSB som fortsatt skal vedlikeholdes. Java er et objektorientert programmeringsspråk som over tid har fått endel utvidelser som gjort det til en miks av paradigmer. Syntaks er verbose som ofte resulterer i mange kodelinjer. Rikt økosystem og tilgang på biblioteker som kan benyttes i andre programmerinsspråk på JVM.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2024-06-10",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "fastapi",
       "title": "FastAPI",
       "ring": "bruk",
