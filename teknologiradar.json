@@ -507,6 +507,51 @@
           "description": "Initiell plassering"
         }
       ]
+    },
+    {
+      "key": "Keycloak",
+      "title": "Keycloak",
+      "ring": "bruk",
+      "quadrant": "sikkerhet",
+      "description": "Autentiseringstjeneste for applikasjoner. SSB foretrekker Keycloak ovenfor direkte bruk av OIDC tjenester (eksempelvis Google Identity eller Microsoft Entra ID) fordi det tilatter mer fleksibiltet, som for eksempel alternative innloggingsflyt og mulighet å berike token med ekstra claims.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Snyk",
+      "title": "Snyk",
+      "ring": "bruk",
+      "quadrant": "sikkerhet",
+      "description": "Snyk er en static application security testing (kjent som SAST) verktøy. Det varsler om sårbarheter i avhengigheter, kode og infrastruktur. SSB har tilgjengeliggjort lisenser for alle utviklerteam og team oppfordres til å benytte det.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Dependabot",
+      "title": "Dependabot",
+      "ring": "bruk",
+      "quadrant": "sikkerhet",
+      "description": "Dependabot er et verktøy som både kan varsle om sårbarheter i avhengigheter, automatisk fikse sårbarheter og ellers hold avhengigheter ajour når nye versjoner er slippet ut. Det er utviklet av Github og tett integrert i plattformen slik at det er enkelt å benytte når man benytter Github som kodelager.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
     }
   ]
 }
