@@ -462,6 +462,21 @@
           "description": "Initiell plassering"
         }
       ]
+    },    
+    {
+      "key": "Maven",
+      "title": "Maven",
+      "ring": "avstå",
+      "quadrant": "devops",
+      "description": "Mye brukt verktøy for å håndtere avhengigheter og bygging av Java prosjekter. Utbredt på eldre systemer, også i SSB, men det er tungvindt å vedlikeholde byggescript xml-filen.\nMaven repositores kan benyttes av alternative verktøy som Gradle så det er mulig med en gradvis overgang. Mer info her: https://maven.apache.org",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
     },
     {
       "key": "Nais",
