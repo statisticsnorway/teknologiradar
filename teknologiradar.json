@@ -329,6 +329,21 @@
       ]
     },
     {
+      "key": "Micronaut",
+      "title": "Micronaut",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Rammeverk for utvikling av backendtjenester på JVM-en (Java, Kotlin, Groovy). Skiller seg fra andre rammeverk ved å ha lavt minneavtrykk og oppstarstid, grunnet at den unngår runtime reflection. Brukes av Barnevern og Statistikktjenester",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-16",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Typescript",
       "title": "Typescript",
       "ring": "bruk",
