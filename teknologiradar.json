@@ -494,8 +494,8 @@
       ]
     },
     {
-      "key": "Nais",
-      "title": "Nais",
+      "key": "NAIS",
+      "title": "NAIS",
       "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Selvbetjent, smidig applikasjonsplattform utviklet av NAV.\nSSB har tatt en strategisk avgjørelse å satse på å ta Nais i bruk. Ideelt sett tilbudt av Nav under PaaS modellen, men selv om dette ikke er mulig på grunn av byråkratiske detaljer skal SSB drifte plattformen på egen hånd.\nMer informasjon: https://nais.io/",
