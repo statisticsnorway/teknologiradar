@@ -494,6 +494,21 @@
       ]
     },
     {
+      "key": "Gradle",
+      "title": "Gradle",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Verktøy for å håndtere avhengigheter og bygging av Java prosjekter. Nyere alternativ til Maven. Gradle støtter inkrementelle bygg og benytter en graf (fremfor en lineær eksekvering som Maven gjor) som gjør bygging tidseffektivt. \nMaven repositores kan benyttes sammen med Gradle. Mer info her: https://docs.gradle.org/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-06-16",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "NAIS",
       "title": "NAIS",
       "ring": "bruk",
