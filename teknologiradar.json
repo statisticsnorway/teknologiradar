@@ -224,6 +224,36 @@
       ]
     },
     {
+      "key": "Mabl",
+      "title": "Mabl",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Mabl er et ende-til-ende test verktøy. Den har fokus på test i brukergrensesnitt og kan benyttes mot applikasjoner kjørende i produksjon, eller som en del av utviklingsprosessen. Den har også støtte for API testing og universell utforming testing.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Sonarcloud",
+      "title": "Sonarcloud",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Sonarcloud er et statiskkodeanalyse verktøy som fokuserer på kodekvalitet og helsen av prosjektet. Det integrerer med IDEer, byggeverktøy og direkte med repoer på Github.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Terraform",
       "title": "Terraform",
       "ring": "bruk",
