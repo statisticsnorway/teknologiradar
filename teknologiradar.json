@@ -359,6 +359,21 @@
       ]
     },
     {
+      "key": "Micronaut",
+      "title": "Micronaut",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Rammeverk for utvikling av backendtjenester på JVM-en (Java, Kotlin, Groovy). Skiller seg fra andre rammeverk ved å ha lavt minneavtrykk og oppstarstid, grunnet at den unngår runtime reflection. Brukes av Barnevern og Statistikktjenester",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-16",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Typescript",
       "title": "Typescript",
       "ring": "bruk",
@@ -509,8 +524,23 @@
       ]
     },
     {
-      "key": "Nais",
-      "title": "Nais",
+      "key": "Gradle",
+      "title": "Gradle",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Verktøy for å håndtere avhengigheter og bygging av Java prosjekter. Nyere alternativ til Maven. Gradle støtter inkrementelle bygg og benytter en graf (fremfor en lineær eksekvering som Maven gjor) som gjør bygging tidseffektivt. \nMaven repositores kan benyttes sammen med Gradle. Mer info her: https://docs.gradle.org/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-06-16",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "NAIS",
+      "title": "NAIS",
       "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Selvbetjent, smidig applikasjonsplattform utviklet av NAV.\nSSB har tatt en strategisk avgjørelse å satse på å ta Nais i bruk. Ideelt sett tilbudt av Nav under PaaS modellen, men selv om dette ikke er mulig på grunn av byråkratiske detaljer skal SSB drifte plattformen på egen hånd.\nMer informasjon: https://nais.io/",
