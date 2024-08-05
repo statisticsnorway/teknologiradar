@@ -298,6 +298,21 @@
         }
       ]
     },
+  {
+      "key": "Rust",
+      "title": "Rust",
+      "ring": "vurder",
+      "quadrant": "programmering",
+      "description": "Rust er et systemnivå programmeringsspråk med fokus på sikkerhet og ytelse, spesielt med hensyn til minnehåndtering uten bruk av en garbage collector. Det er et statisk typet språk som er designet for å gi bedre kontroll over systemressurser samtidig som det sikrer trådsikkerhet gjennom et unikt eierskapssystem. Rust tilbyr også gode muligheter for interoperabilitet med Python, noe som gjør det mulig å skrive ytelseskritiske komponenter i Rust som kan integreres sømløst i Python-applikasjoner. Dette øker ytelsen og sikkerheten i Python-baserte systemer.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2024-08-05",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
     {
       "key": "Java",
       "title": "Java",
