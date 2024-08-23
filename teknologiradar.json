@@ -149,6 +149,21 @@
       ]
     },
     {
+      "key": "Github Packages",
+      "title": "Github Packages",
+      "ring": "bruk",
+      "quadrant": "devops",
+      "description": "Github Packages er en løsning for å lagre artefakter i. Det anbefales å bruke Github Packages fremfor artifact registry når pakker og imager skal være offentlig tilgjengelig. For interne artefakter burde Google Artifact Registry benyttes.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-08-19",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Grafana",
       "title": "Grafana",
       "ring": "bruk",
