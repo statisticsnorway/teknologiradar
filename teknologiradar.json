@@ -314,6 +314,21 @@
       ]
     },
     {
+      "key": "Kotlin",
+      "title": "Kotlin",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Kotlin er et høynivå programmeringsspråk som kjører på JVM (Java Virtual Machine). Det er designet for å være interoperabelt med Java, noe som gjør det enkelt å bruke med eksisterende Java-biblioteker og -kode. Kotlin støtter både imperative og deklarative paradigmer, som objektorientert og funksjonell programmering. Syntaksen er mer konsis enn Java, noe som reduserer antall kodelinjer og forbedrer lesbarheten. Kotlin tilbyr også funksjoner utover Java som nullsikkerhet, data-klasser og korutiner (coroutines). ",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-10-16",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "fastapi",
       "title": "FastAPI",
       "ring": "bruk",
