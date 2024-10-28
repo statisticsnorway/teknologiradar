@@ -286,7 +286,7 @@
     {
       "key": "OpenTofu",
       "title": "OpenTofu",
-      "ring": "vurder",
+      "ring": "avstå",
       "quadrant": "infrastruktur",
       "description": "Infrastruktur som kode språk. Fork av Terraform tilgjengelig under MPL-2.0 lisens.\nMer info her: https://opentofu.org/",
       "timeline": [
@@ -295,6 +295,12 @@
           "ringId": "vurder",
           "date": "2024-05-31",
           "description": "Initiell plassering"
+        },
+        {
+          "moved": -1,
+          "ringId": "avstå",
+          "date": "2024-10-28",
+          "description": "Terraform er fortsatt i mest utbredt bruk (både mtp moduler og støtteverktøy som brukes rundt iac)"
         }
       ]
     },
