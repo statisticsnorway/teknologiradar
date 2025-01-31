@@ -140,21 +140,6 @@
       ]
     },
     {
-      "key": "Google Artifact Registry",
-      "title": "Google Artifact Registry",
-      "ring": "bruk",
-      "quadrant": "devops",
-      "description": "Google Artifact Registry (GAR) er en allsidig løsning for å lagre artefakter i google cloud plattformen. Vi har et eget google cloud prosjekt drevet av team skyinfrastruktur som tilbyr denne tjenesten for utviklere i SSB, og vi har organisasjonshemmeligheter på github som gir tilgang til informasjonen man trenger for å publisere sin artefakt fra en Github Actions workflow.\n\n**Fordeler**:\n- Støtter flere artefakttyper. Docker images, npm-pakker, pythonpakker osv.\n- Sentral forvaltning\n- Integrert med Google cloud tjenester\n\n**Ulemper**:\n- Kostbart med sikkerhetsscanning av artefakter\n",
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "bruk",
-          "date": "2024-05-29",
-          "description": "Initiell plassering"
-        }
-      ]
-    },
-    {
       "key": "Github Packages",
       "title": "Github Packages",
       "ring": "bruk",
@@ -630,7 +615,7 @@
       "title": "Google Artifact Registry",
       "ring": "bruk",
       "quadrant": "devops",
-      "description": "Lagring og distribusjon av artifakter i SSB.",
+      "description": "Google Artifact Registry (GAR) er en allsidig løsning for å lagre artefakter i google cloud plattformen. Vi har et eget google cloud prosjekt drevet av team skyinfrastruktur som tilbyr denne tjenesten for utviklere i SSB, og vi har organisasjonshemmeligheter på github som gir tilgang til informasjonen man trenger for å publisere sin artefakt fra en Github Actions workflow.\n\n**Fordeler**:\n- Støtter flere artefakttyper. Docker images, npm-pakker, pythonpakker osv.\n- Sentral forvaltning\n- Integrert med Google cloud tjenester\n\n**Ulemper**:\n- Kostbart med sikkerhetsscanning av artefakter\n",
       "timeline": [
         {
           "moved": 0,
