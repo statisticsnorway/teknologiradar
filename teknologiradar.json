@@ -326,6 +326,21 @@
       ]
     },
     {
+      "key": "Go",
+      "title": "Go",
+      "ring": "bruk",
+      "quadrant": "programmering",
+      "description": "Go er et kompilert statisk typet språk utviklet av Google. Det er mye brukt innen cloud native-teknologi, som Kubernetes. Det er kjent for rask kompilering, lav ressursbruk og innebygd støtte for samtidighet med goroutines. Dette gjør det velegnet for skybaserte tjenester/systemer med høye krav til ytelse og skalerbarhet. Go har enkel syntaks, et rikt standardbibliotek. Samtidig kommer det med verktøy for testing, formatering og bygging rett ut av boksen.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2025-04-23",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "fastapi",
       "title": "FastAPI",
       "ring": "bruk",
