@@ -65,21 +65,6 @@
       ]
     },
     {
-      "key": "Google DataStore",
-      "title": "Google DataStore",
-      "ring": "avstå",
-      "quadrant": "infrastruktur",
-      "description": "Skalerbar teknologi for NoSQL databaser. Mer info her: https://cloud.google.com/datastore",
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "avstå",
-          "date": "2022-05-16",
-          "description": "Initiell plassering"
-        }
-      ]
-    },
-    {
       "key": "Google CloudSQL",
       "title": "Google CloudSQL",
       "ring": "bruk",
@@ -100,21 +85,6 @@
       "ring": "avstå",
       "quadrant": "infrastruktur",
       "description": "Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python. Med denne teknologien kan man automatisere produksjonsløp og samtidig få et brukergrensesnitt hvor man kan monitorere kjøringene. Mer info her: https://cloud.google.com/composer",
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "avstå",
-          "date": "2022-05-16",
-          "description": "Initiell plassering"
-        }
-      ]
-    },
-    {
-      "key": "Google Cloud DLP",
-      "title": "Google Cloud DLP",
-      "ring": "avstå",
-      "quadrant": "infrastruktur",
-      "description": "Relativ ny teknologi fra Google for å verne sensitive data. Kan f.eks. brukes til pseudonymisering av data. Mer info her: https://cloud.google.com/dlp",
       "timeline": [
         {
           "moved": 0,
@@ -310,7 +280,7 @@
         }
       ]
     },
-  {
+    {
       "key": "Rust",
       "title": "Rust",
       "ring": "vurder",
@@ -549,7 +519,7 @@
           "description": "Initiell plassering"
         }
       ]
-    },    
+    },
     {
       "key": "Maven",
       "title": "Maven",
