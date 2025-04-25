@@ -236,16 +236,16 @@
       "description": "Infrastruktur som kode språk. Fork av Terraform tilgjengelig under MPL-2.0 lisens.\nMer info her: https://opentofu.org/",
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "vurder",
-          "date": "2024-05-31",
-          "description": "Initiell plassering"
-        },
-        {
           "moved": -1,
           "ringId": "avstå",
           "date": "2024-10-28",
           "description": "Terraform er fortsatt i mest utbredt bruk (både mtp moduler og støtteverktøy som brukes rundt iac)"
+        },
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2024-05-31",
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -522,16 +522,16 @@
       "description": "Mye brukt verktøy for å håndtere avhengigheter og bygging av Java prosjekter. Utbredt på eldre systemer, også i SSB, men det er tungvindt å vedlikeholde byggescript xml-filen.\nMaven repositores kan benyttes av alternative verktøy som Gradle så det er mulig med en gradvis overgang. Mer info her: https://maven.apache.org",
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "bruk",
-          "date": "2022-06-14",
-          "description": "Initiell plassering"
-        },
-        {
           "moved": -1,
           "ringId": "avstå",
           "date": "2024-06-14",
           "description": "Gradle er foretrukket som byggesystem for JVM"
+        },
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2022-06-14",
+          "description": "Initiell plassering"
         }
       ]
     },
