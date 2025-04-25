@@ -536,6 +536,21 @@
       ]
     },
     {
+      "key": "uv",
+      "title": "uv",
+      "ring": "vurder",
+      "quadrant": "devops",
+      "description": "Lynrask Python-prosjekthåndteringsverktøy. Kan være en erstatning for blant annet pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv. Mer info her: https://docs.astral.sh/uv/",
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "vurder",
+          "date": "2025-04-25",
+          "description": "Blir en kurant valg for nye prosjekter"
+        }
+      ]
+    },
+    {
       "key": "Maven",
       "title": "Maven",
       "ring": "avstå",
@@ -547,6 +562,12 @@
           "ringId": "bruk",
           "date": "2022-06-14",
           "description": "Initiell plassering"
+        },
+        {
+          "moved": -1,
+          "ringId": "avstå",
+          "date": "2024-06-14",
+          "description": "Gradle er foretrukket som byggesystem for JVM"
         }
       ]
     },
