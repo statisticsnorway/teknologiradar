@@ -547,6 +547,12 @@
           "ringId": "bruk",
           "date": "2022-06-14",
           "description": "Initiell plassering"
+        },
+        {
+          "moved": -1,
+          "ringId": "avstå",
+          "date": "2024-06-14",
+          "description": "Gradle er foretrukket som byggesystem for JVM"
         }
       ]
     },
