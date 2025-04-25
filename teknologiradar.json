@@ -16,7 +16,6 @@
     {
       "key": "Google Cloud Storage",
       "title": "Google Cloud Storage",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Kostnadseffektiv lagringsteknologi som støtter mange funksjoner som f.eks. versjonering, automatisk tidsinstilit sletting, sikkerhet m.m. Mer info her: https://cloud.google.com/storage",
       "timeline": [
@@ -31,7 +30,6 @@
     {
       "key": "Google PubSub",
       "title": "Google PubSub",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Moden og stabil teknologi for innmsaling av data som hendelser i en strøm. Kan også brukes som meldingsformidler eller Køsystem. Flere prosjekter i SSB bruker PubSub. Mer info her: https://cloud.google.com/pubsub",
       "timeline": [
@@ -46,7 +44,6 @@
     {
       "key": "Google BigQuery",
       "title": "Google BigQuery",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Populær og superskalerbar databaseteknologi for lagring av data. Kan også brukes til klargjøring og utforsking av data. Egner seg først og fremst for OLAP (Online Analytical processing) i motseting til OLTP (Online transaction processing). For sistnevnte bør man vurdere andre teknologier. BQ støtter SQL og kan kombineres med flere tjenester fra Google, noe som kan være en fordel i enkelte situasjoner. Mer info her: https://cloud.google.com/bigquery",
       "timeline": [
@@ -67,7 +64,6 @@
     {
       "key": "Google CloudSQL",
       "title": "Google CloudSQL",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Selvbetejent relasjonsdatabseløsning fra Google som tilbyr MySQL,PostgreSQL og SQL Server. Mer info her: https://cloud.google.com/sql",
       "timeline": [
@@ -82,7 +78,6 @@
     {
       "key": "Cloud Composer",
       "title": "Cloud Composer",
-      "ring": "avstå",
       "quadrant": "infrastruktur",
       "description": "Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python. Med denne teknologien kan man automatisere produksjonsløp og samtidig få et brukergrensesnitt hvor man kan monitorere kjøringene. Mer info her: https://cloud.google.com/composer",
       "timeline": [
@@ -97,7 +92,6 @@
     {
       "key": "Google Container Registry",
       "title": "Google Container Registry",
-      "ring": "avstå",
       "quadrant": "devops",
       "description": "Google Container Registry (GCR) er et register for docker containere i google cloud plattformen. Den er tett integrert med google cloud plattformen og lar utviklere lagre og administere docker images. Vi er nødt til å bevege oss bort fra å bruke denne ettersom GCR avvikles til fordel for GAR (Google Artifact Registry).",
       "timeline": [
@@ -112,7 +106,6 @@
     {
       "key": "Github Packages",
       "title": "Github Packages",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Github Packages er en løsning for å lagre artefakter i. Det anbefales å bruke Github Packages fremfor artifact registry når pakker og imager skal være offentlig tilgjengelig. For interne artefakter burde Google Artifact Registry benyttes.",
       "timeline": [
@@ -127,7 +120,6 @@
     {
       "key": "Grafana",
       "title": "Grafana",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Teknologi for å visulalisere data fra mange ulike kilder. Mest brukt til å visualisere logger og metrikker. Brukerne lage egne fleksible dashboard. Mer info her: https://grafana.com",
       "timeline": [
@@ -142,7 +134,6 @@
     {
       "key": "Github",
       "title": "Github",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Teknologi for å koordinere prosjekter",
       "timeline": [
@@ -157,7 +148,6 @@
     {
       "key": "Azure Pipelines",
       "title": "Azure Pipelines",
-      "ring": "avstå",
       "quadrant": "devops",
       "description": "Azure Pipelines er et skybasert CI/CD verktøy som er en del av Azure DevOps.\n\n**Fordeler**:\n- Integrert med andre Azure tjenester\n- Kraftig og fleksibel styring av pipelines\n- Støtter pipelines i Windows, Linux og MacOS\n\n**Ulemper**:\n- Ikke like god integrasjon med github som github actions\n- Vi har ikke stort behov for integrasjonen med andre Azure tjenester",
       "timeline": [
@@ -172,7 +162,6 @@
     {
       "key": "Jenkins",
       "title": "Jenkins",
-      "ring": "avstå",
       "quadrant": "devops",
       "description": "Jenkins er en åpen kildekode automatiseringsserver for CI/CD. Jenkins kan kjøres både i sky og på bakken, og har et rikt økosystem med plugins og utvidelser. Vi ønsker å bruke så lite Jenkins som mulig. Det burde kun brukes om det er det eneste alternativet man har. F.eks.: Automatiske utrullinger på bakkeplattformen, uten at man har tilgang på en github actions runner på bakken. \n\n**Fordeler**\n- Kan kjøres på bakken\n- Kan kjøres på alle maskiner som støtter Java\n- Fleksibel\n\n**Ulemper**:\n- Tidkrevende i drift. Spesielt med mange plugins\n- Utdatert og mindre intuitivt sammenlignet med moderne alternativer\n",
       "timeline": [
@@ -187,7 +176,6 @@
     {
       "key": "Github Actions",
       "title": "Github Actions",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Github Actions er en CI/CD plattform integrert direkte inn i GitHub.\n\n**Fordeler**:\n- Tett integrasjon med Github gir en sømløs opplevelse\n- Fleksibilitet\n- Støtter pipelines i Windows, Linux og MacOS\n- Stort utvalg actionssom kan gjenbrukes\n\n**Ulemper**\n- Ikke gratis for private repositories (Men vi får en kvote med gratisminutter i vår enterprise-avtale)\n",
       "timeline": [
@@ -202,7 +190,6 @@
     {
       "key": "Mabl",
       "title": "Mabl",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Mabl er et ende-til-ende test verktøy. Den har fokus på test i brukergrensesnitt og kan benyttes mot applikasjoner kjørende i produksjon, eller som en del av utviklingsprosessen. Den har også støtte for API testing og universell utforming testing.",
       "timeline": [
@@ -217,7 +204,6 @@
     {
       "key": "Sonarcloud",
       "title": "Sonarcloud",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Sonarcloud er et statiskkodeanalyse verktøy som fokuserer på kodekvalitet og helsen av prosjektet. Det integrerer med IDEer, byggeverktøy og direkte med repoer på Github.",
       "timeline": [
@@ -232,7 +218,6 @@
     {
       "key": "Terraform",
       "title": "Terraform",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Infrastruktur som kode språk. Utbredt bruk både på Dapla og blant ekspertteam.\nProsjektet endret til en BSL lisens, og er ikke lenger åpen kildekode, men 'kilde tilgjengelig'.",
       "timeline": [
@@ -247,7 +232,6 @@
     {
       "key": "OpenTofu",
       "title": "OpenTofu",
-      "ring": "avstå",
       "quadrant": "infrastruktur",
       "description": "Infrastruktur som kode språk. Fork av Terraform tilgjengelig under MPL-2.0 lisens.\nMer info her: https://opentofu.org/",
       "timeline": [
@@ -268,7 +252,6 @@
     {
       "key": "Python",
       "title": "Python",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "Python er et høynivå programmeringsspråk kjente for enkel syntaks og lettleselighet. Det er et hovedverktøyet i SSB for produksjon av statistikk, og er derfor ofte relevant for utvikling av både tjenester og biblioteker. Det har et modent økosystem i PyPI som forenkler og tilgjengeliggjør hurtig og kompleks databehandling gjennom f.eks. PyArrow, Pandas, Numpy og Polars. \n\n **Fordeler**: \n- Enkel og intuitiv syntax \n- Rikt og modent økosystem \n- Mye kompetanse på huset \n\n**Ulemper:**\n- Dynamisk typing\n- Trenger du funksjonalitet som ikke PyPI-pakker støtter er python ofte tregere enn alternativene",
       "timeline": [
@@ -283,7 +266,6 @@
     {
       "key": "Rust",
       "title": "Rust",
-      "ring": "vurder",
       "quadrant": "programmering",
       "description": "Rust er et systemnivå programmeringsspråk med fokus på sikkerhet og ytelse, spesielt med hensyn til minnehåndtering uten bruk av en garbage collector. Det er et statisk typet språk som er designet for å gi bedre kontroll over systemressurser samtidig som det sikrer trådsikkerhet gjennom et unikt eierskapssystem. Rust tilbyr også gode muligheter for interoperabilitet med Python, noe som gjør det mulig å skrive ytelseskritiske komponenter i Rust som kan integreres sømløst i Python-applikasjoner. Dette øker ytelsen og sikkerheten i Python-baserte systemer.",
       "timeline": [
@@ -298,7 +280,6 @@
     {
       "key": "Java",
       "title": "Java",
-      "ring": "avstå",
       "quadrant": "programmering",
       "description": "Java er et høynivå programmeringsspråk som kjører på JVM (Java Virtual Machine). Det er svært mange applikasjoner som er utviklet med Java i SSB som fortsatt skal vedlikeholdes. Java er et objektorientert programmeringsspråk som over tid har fått endel utvidelser som gjort det til en miks av paradigmer. Syntaks er verbose som ofte resulterer i mange kodelinjer. Rikt økosystem og tilgang på biblioteker som kan benyttes i andre programmerinsspråk på JVM.",
       "timeline": [
@@ -313,7 +294,6 @@
     {
       "key": "Kotlin",
       "title": "Kotlin",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "Kotlin er et høynivå programmeringsspråk som kjører på JVM (Java Virtual Machine). Det er designet for å være interoperabelt med Java, noe som gjør det enkelt å bruke med eksisterende Java-biblioteker og -kode. Kotlin støtter både imperative og deklarative paradigmer, som objektorientert og funksjonell programmering. Syntaksen er mer konsis enn Java, noe som reduserer antall kodelinjer og forbedrer lesbarheten. Kotlin tilbyr også funksjoner utover Java som nullsikkerhet, data-klasser og korutiner (coroutines). ",
       "timeline": [
@@ -328,7 +308,6 @@
     {
       "key": "Go",
       "title": "Go",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "Go er et kompilert statisk typet språk utviklet av Google. Det er mye brukt innen cloud native-teknologi, som Kubernetes. Det er kjent for rask kompilering, lav ressursbruk og innebygd støtte for samtidighet med goroutines. Dette gjør det velegnet for skybaserte tjenester/systemer med høye krav til ytelse og skalerbarhet. Go har enkel syntaks, et rikt standardbibliotek. Samtidig kommer det med verktøy for testing, formatering og bygging rett ut av boksen.",
       "timeline": [
@@ -343,7 +322,6 @@
     {
       "key": "fastapi",
       "title": "FastAPI",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "FastAPI er et moderne web-rammeverk bygget på toppen av starlette og Pydantic for å skrive APIer i python. FastAPI er bygget for å støtte asynkron programmering og autogenerering av OpenAPI dokumentasjon.\n\n**Fordeler**:\n- Høy ytelse med asynkrone endepunkter\n- Oppfordrer til god typesjekking med pydantic\n- God typing fører til god dokumentasjon\n\n**Ulemper**:\n- ASGI er mindre modent enn WSGI\n- Forvaltes i hovedsak av en enkelt person\n",
       "timeline": [
@@ -358,7 +336,6 @@
     {
       "key": "Flask",
       "title": "Flask",
-      "ring": "avstå",
       "quadrant": "programmering",
       "description": "Flask er et web-rammeverk for å skrive APIer og webapplikasjoner i python. Det gir utviklere en grunnleggende verktøykasse uten å være for opinionated, og har et stort og modent økosystem av utvidelser.\n\n**Fordeler**:\n- Fleksibelt og enkelt\n- Veldig modent og har mange utvidelser\n\n**Ulemper**:\n- Mangler innebygd moderne funksjonalitet\n- Ikke like egnet for async\n",
       "timeline": [
@@ -373,7 +350,6 @@
     {
       "key": "Spring-framework",
       "title": "Spring Framework",
-      "ring": "avstå",
       "quadrant": "programmering",
       "description": "Rammeverk for utvikling av backendtjenester. Spring er et stort rammeverk med mye magi som kan være komplisert å konfigurere riktig. Vurder derfor Micronaut før man tar i bruk Spring på nye tjenester. Brukes av SUP og Freg",
       "timeline": [
@@ -388,7 +364,6 @@
     {
       "key": "Micronaut",
       "title": "Micronaut",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "Rammeverk for utvikling av backendtjenester på JVM-en (Java, Kotlin, Groovy). Skiller seg fra andre rammeverk ved å ha lavt minneavtrykk og oppstarstid, grunnet at den unngår runtime reflection. Brukes av Barnevern og Statistikktjenester",
       "timeline": [
@@ -403,7 +378,6 @@
     {
       "key": "Typescript",
       "title": "Typescript",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "TypeScript er et superset av javascript med statisk typesjekking. TypeScript transpireres til vanlig JavaScript, slik at koden kan kjøres hvor som helst JavaScript kan kjøres, enten det er i nettleseren eller på serveren.\n\n**Fordeler**:\n- Rikt og modent økosystem\n- Hjelper med å fange feil tidligere\n\n**Ulemper**:\n- Trenger et byggesteg og er ofte mer komplisert å sette opp enn javascript\n- Manglende støtte i npm pakker eller rammeverk kan forringe opplevelsen",
       "timeline": [
@@ -418,7 +392,6 @@
     {
       "key": "Javascript",
       "title": "Javascript",
-      "ring": "avstå",
       "quadrant": "programmering",
       "description": "Javascript er et åpenkildekode programmeringsspråk. Det er et dynamisk språk som kan kjøre i både nettleseren og på server og er derfor bredt brukt i webutvikling. Om man starter et nytt prosjekt, eller ønsker å refaktorere en eksisterende kodebase, burde man heller velge typescript.\n\n**Fordeler**:\n- Rikt og modent økosystem\n- Fleksibelt og raskt til f.eks. prototyping\n\n**Ulemper**:\n- Mangel på typesjekking gir en dårligere utvikleropplevelse",
       "timeline": [
@@ -433,7 +406,6 @@
     {
       "key": "React",
       "title": "React",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "React er et populært JavaScript-bibliotek for å bygge brukergrensesnitt for enkeltsideapplikasjoner. Det er best kjent for sin komponentbaserte arkitektur og bruk av en virtuell DOM for å forbedre ytelsen.\n\n**Fordeler**:\n- Rikt og modent økosystem og utviklermiljø\n- God støtte for Typescript\n\n**Ulemper**:\n- JSX/TSX kan oppleves rotete for noen\n- Kompleks læringskurve i begynnelsen",
       "timeline": [
@@ -448,7 +420,6 @@
     {
       "key": "SvelteKit",
       "title": "SvelteKit",
-      "ring": "vurder",
       "quadrant": "programmering",
       "description": "SvelteKit er et moderne javascript rammeverk for å bygge både fullstack-applikasjoner og enkeltsideapplikasjoner. Svelte-komponenter kompileres til javascript og trenger derfor ingen virtuell DOM.\n**Fordeler**:\n- Tilbyr en enkel og gjenkjennelig modell med ekte reaktivitet\n- Fullstack løsning med tilgang til SSR(Server-side rendering)\n\n**Ulemper**:\n- Mindre brukt enn react, om man bygger en enkeltsideapplikasjon\n- Mindre støtte i verktøyer og biblioteker enn react",
       "timeline": [
@@ -463,7 +434,6 @@
     {
       "key": "Vite",
       "title": "Vite",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "Vite er et moderne byggverktøy og utviklingsserver for frontend-prosjekter, kjent for sin raske ytelse og enkle oppsett. Det er spesielt designet for raskere oppstartstider og raskere utviklingssykluser.\n**Fordeler**:\n- Rask og god utvikleropplevelse\n- Støtter plugins for alle de store rammeverkene\n- Enkel konfigurasjon\n\n**Ulemper**:\n- Mindre modent økosystem\n- Kan ha kompabilitets problemer med eldre prosjekter",
       "timeline": [
@@ -478,7 +448,6 @@
     {
       "key": "MOVEit",
       "title": "MOVEit",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Overføring av filer på bakkenivå",
       "timeline": [
@@ -493,7 +462,6 @@
     {
       "key": "Apache Spark",
       "title": "Apache Spark",
-      "ring": "bruk",
       "quadrant": "programmering",
       "description": "Teknologi for minnebasert distribuert prosessering i klynger eller prosessering på enkel noder. Koden kan skrives i flere språk. Denne teknologien er en del av DAPLA. Mer info her: https://spark.apache.org",
       "timeline": [
@@ -508,7 +476,6 @@
     {
       "key": "NuGet",
       "title": "NuGet",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Defacto standard-verktøy for pakkehåndtering og kodedeling i .NET som kan brukes i .NET baserte prosjekter både i PxWeb og Altinn. Mer info her: https://www.nuget.org",
       "timeline": [
@@ -523,7 +490,6 @@
     {
       "key": "Poetry",
       "title": "Poetry",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Brukervennlig verktøy for å håndtere Python prosjekter. Utbredt bruk både blant utviklerteam og statistikkteam. Mer info her: https://python-poetry.org",
       "timeline": [
@@ -538,7 +504,6 @@
     {
       "key": "uv",
       "title": "uv",
-      "ring": "vurder",
       "quadrant": "devops",
       "description": "Lynrask Python-prosjekthåndteringsverktøy. Kan være en erstatning for blant annet pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv. Mer info her: https://docs.astral.sh/uv/",
       "timeline": [
@@ -553,7 +518,6 @@
     {
       "key": "Maven",
       "title": "Maven",
-      "ring": "avstå",
       "quadrant": "devops",
       "description": "Mye brukt verktøy for å håndtere avhengigheter og bygging av Java prosjekter. Utbredt på eldre systemer, også i SSB, men det er tungvindt å vedlikeholde byggescript xml-filen.\nMaven repositores kan benyttes av alternative verktøy som Gradle så det er mulig med en gradvis overgang. Mer info her: https://maven.apache.org",
       "timeline": [
@@ -574,7 +538,6 @@
     {
       "key": "Gradle",
       "title": "Gradle",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Verktøy for å håndtere avhengigheter og bygging av Java prosjekter. Nyere alternativ til Maven. Gradle støtter inkrementelle bygg og benytter en graf (fremfor en lineær eksekvering som Maven gjor) som gjør bygging tidseffektivt. \nMaven repositores kan benyttes sammen med Gradle. Mer info her: https://docs.gradle.org/",
       "timeline": [
@@ -589,7 +552,6 @@
     {
       "key": "NAIS",
       "title": "NAIS",
-      "ring": "bruk",
       "quadrant": "infrastruktur",
       "description": "Selvbetjent, smidig applikasjonsplattform utviklet av NAV.\nSSB har tatt en strategisk avgjørelse å satse på å ta Nais i bruk. Ideelt sett tilbudt av Nav under PaaS modellen, men selv om dette ikke er mulig på grunn av byråkratiske detaljer skal SSB drifte plattformen på egen hånd.\nMer informasjon: https://nais.io/",
       "timeline": [
@@ -604,7 +566,6 @@
     {
       "key": "BIP",
       "title": "BIP (Byråets IT Plattform)",
-      "ring": "avstå",
       "quadrant": "infrastruktur",
       "description": "Applikasjonsplattform utviklet hos SSB. Utviklingen har ikke holdt fart med Nais, som tilbyr en langt bedre brukeropplevelse. Det var beregnet som en altfor stor investering å fortsette utviklingen av BIP, særlig når applikasjonutvikling er ikke SSBs kjernevirksomhet.",
       "timeline": [
@@ -619,7 +580,6 @@
     {
       "key": "Google Artifact Registry",
       "title": "Google Artifact Registry",
-      "ring": "bruk",
       "quadrant": "devops",
       "description": "Google Artifact Registry (GAR) er en allsidig løsning for å lagre artefakter i google cloud plattformen. Vi har et eget google cloud prosjekt drevet av team skyinfrastruktur som tilbyr denne tjenesten for utviklere i SSB, og vi har organisasjonshemmeligheter på github som gir tilgang til informasjonen man trenger for å publisere sin artefakt fra en Github Actions workflow.\n\n**Fordeler**:\n- Støtter flere artefakttyper. Docker images, npm-pakker, pythonpakker osv.\n- Sentral forvaltning\n- Integrert med Google cloud tjenester\n\n**Ulemper**:\n- Kostbart med sikkerhetsscanning av artefakter\n",
       "timeline": [
@@ -634,7 +594,6 @@
     {
       "key": "Keycloak",
       "title": "Keycloak",
-      "ring": "bruk",
       "quadrant": "sikkerhet",
       "description": "Autentiseringstjeneste for applikasjoner. SSB foretrekker Keycloak ovenfor direkte bruk av OIDC tjenester (eksempelvis Google Identity eller Microsoft Entra ID) fordi det tilatter mer fleksibiltet, som for eksempel alternative innloggingsflyt og mulighet å berike token med ekstra claims.",
       "timeline": [
@@ -649,7 +608,6 @@
     {
       "key": "Snyk",
       "title": "Snyk",
-      "ring": "bruk",
       "quadrant": "sikkerhet",
       "description": "Snyk er en static application security testing (kjent som SAST) verktøy. Det varsler om sårbarheter i avhengigheter, kode og infrastruktur. SSB har tilgjengeliggjort lisenser for alle utviklerteam og team oppfordres til å benytte det.",
       "timeline": [
@@ -664,7 +622,6 @@
     {
       "key": "Dependabot",
       "title": "Dependabot",
-      "ring": "bruk",
       "quadrant": "sikkerhet",
       "description": "Dependabot er et verktøy som både kan varsle om sårbarheter i avhengigheter, automatisk fikse sårbarheter og ellers hold avhengigheter ajour når nye versjoner er slippet ut. Det er utviklet av Github og tett integrert i plattformen slik at det er enkelt å benytte når man benytter Github som kodelager.",
       "timeline": [
