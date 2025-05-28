@@ -606,6 +606,20 @@
       ]
     },
     {
+      "key": "Trivy",
+      "title": "Trivy",
+      "quadrant": "sikkerhet",
+      "description": "Trivy er en omfattende, brukervennlig og åpen kildekode-basert sårbarhetsskanner for containere, kode og skytjenesteinfrastruktur. Den er inkludert i sikkerhetsverktøyene som er integrert med NAIS, men vi kan også bruke trivy til å generere sikkerhetsrapporter for våre bakkesystemer også.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2025-05-28",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Snyk",
       "title": "Snyk",
       "quadrant": "sikkerhet",
