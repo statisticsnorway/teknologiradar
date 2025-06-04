@@ -516,6 +516,20 @@
       ]
     },
     {
+      "key": "Qodo",
+      "title": "Qodo",
+      "quadrant": "devops",
+      "description": "KI-verktøy spesialert på å generere gode enhetstester, spesielt god på mocking. Gratis for vanlig enhetstestbruk. Mer info her: https://www.qodo.ai/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2025-06-04",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Maven",
       "title": "Maven",
       "quadrant": "devops",
