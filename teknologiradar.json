@@ -646,6 +646,20 @@
           "description": "Initiell plassering"
         }
       ]
+    },
+    {
+      "key": "JMeter",
+      "title": "JMeter",
+      "quadrant": "devops",
+      "description": "Open source ytelsestestingsverktøy for å teste last. Opprinnelig laget for å teste web, men har fått mer funksjonalitet over tid. Det er laget av Apache.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2025-06-04",
+          "description": "Initiell plassering"
+        }
+      ]
     }
   ]
 }
