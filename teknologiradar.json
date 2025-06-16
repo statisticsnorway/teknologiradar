@@ -522,6 +522,20 @@
       ]
     },
     {
+      "key": "Qodo",
+      "title": "Qodo",
+      "quadrant": "devops",
+      "description": "KI-verktøy for å lage enhetstester. Kun godkjent for enhetstesting på public repoer. Gratis for vanlig enhetstestbruk. Mer info her: https://www.qodo.ai/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2025-06-04",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Maven",
       "title": "Maven",
       "quadrant": "devops",
