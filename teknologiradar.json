@@ -96,15 +96,15 @@
       ]
     },
     {
-      "key": "Google Container Registry",
-      "title": "Google Container Registry",
+      "key": "Precommit",
+      "title": "Pre-commit",
       "quadrant": "devops",
-      "description": "Google Container Registry (GCR) er et register for docker containere i google cloud plattformen. Den er tett integrert med google cloud plattformen og lar utviklere lagre og administere docker images. Vi er nødt til å bevege oss bort fra å bruke denne ettersom GCR avvikles til fordel for GAR (Google Artifact Registry).",
+      "description": "Pre-commit er et rammeverk for å kjøre automatiske sjekker og verktøy før du gjør en git-commit. Det hjelper teamet med å oppdage feil tidlig og sikre enhetlig kodekvalitet.",
       "timeline": [
         {
           "moved": 0,
-          "ringId": "avstå",
-          "date": "2024-05-29",
+          "ringId": "bruk",
+          "date": "2025-09-24",
           "description": "Initiell plassering"
         }
       ]
@@ -147,20 +147,6 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Initiell plassering"
-        }
-      ]
-    },
-    {
-      "key": "Azure Pipelines",
-      "title": "Azure Pipelines",
-      "quadrant": "devops",
-      "description": "Azure Pipelines er et skybasert CI/CD verktøy som er en del av Azure DevOps.\n\n**Fordeler**:\n- Integrert med andre Azure tjenester\n- Kraftig og fleksibel styring av pipelines\n- Støtter pipelines i Windows, Linux og MacOS\n\n**Ulemper**:\n- Ikke like god integrasjon med github som github actions\n- Vi har ikke stort behov for integrasjonen med andre Azure tjenester",
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "avstå",
-          "date": "2024-05-29",
           "description": "Initiell plassering"
         }
       ]
@@ -231,26 +217,6 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2022-05-16",
-          "description": "Initiell plassering"
-        }
-      ]
-    },
-    {
-      "key": "OpenTofu",
-      "title": "OpenTofu",
-      "quadrant": "infrastruktur",
-      "description": "Infrastruktur som kode språk. Fork av Terraform tilgjengelig under MPL-2.0 lisens.\nMer info her: https://opentofu.org/",
-      "timeline": [
-        {
-          "moved": -1,
-          "ringId": "avstå",
-          "date": "2024-10-28",
-          "description": "Terraform er fortsatt i mest utbredt bruk (både mtp moduler og støtteverktøy som brukes rundt iac)"
-        },
-        {
-          "moved": 0,
-          "ringId": "vurder",
-          "date": "2024-05-31",
           "description": "Initiell plassering"
         }
       ]
@@ -424,20 +390,6 @@
       ]
     },
     {
-      "key": "SvelteKit",
-      "title": "SvelteKit",
-      "quadrant": "programmering",
-      "description": "SvelteKit er et moderne javascript rammeverk for å bygge både fullstack-applikasjoner og enkeltsideapplikasjoner. Svelte-komponenter kompileres til javascript og trenger derfor ingen virtuell DOM.\n**Fordeler**:\n- Tilbyr en enkel og gjenkjennelig modell med ekte reaktivitet\n- Fullstack løsning med tilgang til SSR(Server-side rendering)\n\n**Ulemper**:\n- Mindre brukt enn react, om man bygger en enkeltsideapplikasjon\n- Mindre støtte i verktøyer og biblioteker enn react",
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "vurder",
-          "date": "2024-05-29",
-          "description": "Initiell plassering"
-        }
-      ]
-    },
-    {
       "key": "Vite",
       "title": "Vite",
       "quadrant": "programmering",
@@ -515,9 +467,15 @@
       "timeline": [
         {
           "moved": 1,
+          "ringId": "bruk",
+          "date": "2025-09-24",
+          "description": "Blir et kurant valg for nye prosjekter"
+        },
+        {
+          "moved": 0,
           "ringId": "vurder",
           "date": "2025-04-25",
-          "description": "Blir en kurant valg for nye prosjekter"
+          "description": "Initiell plassering"
         }
       ]
     },
@@ -633,7 +591,7 @@
       "timeline": [
         {
           "moved": 0,
-          "ringId": "vurder",
+          "ringId": "bruk",
           "date": "2025-05-28",
           "description": "Initiell plassering"
         }
@@ -647,7 +605,7 @@
       "timeline": [
         {
           "moved": 0,
-          "ringId": "bruk",
+          "ringId": "avstå",
           "date": "2024-06-14",
           "description": "Initiell plassering"
         }
@@ -663,6 +621,20 @@
           "moved": 0,
           "ringId": "bruk",
           "date": "2024-06-14",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "Distroless",
+      "title": "Distroless",
+      "quadrant": "sikkerhet",
+      "description": "Distroless-bilder er Docker-containere uten operativsystempakker som bash eller pakkebehandlere som apt. De gir mindre angrepsflate og sikrere, lettere produksjonsmiljøer.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2025-09-24",
           "description": "Initiell plassering"
         }
       ]
