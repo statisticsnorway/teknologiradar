@@ -50,7 +50,7 @@
         {
           "moved": 1,
           "ringId": "bruk",
-          "date": "2024-28-10",
+          "date": "2024-10-28",
           "description": "BigQuery er serverless så man slipper å allokere ressurser for peak load. Den er ganske fleksibel og data kan lastes inn fra mange ulike kilder og formater. Det er allikevel viktig at man ikke prosesserer alle data i en stor tabell ofte, da det kan komme med en høy kostnad. For periodiske analyser/uttrekk typisk for SSB er det egentlig en god match"
         },
         {
