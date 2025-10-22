@@ -76,6 +76,20 @@
       ]
     },
     {
+      "key": "MongoDB Atlas",
+      "title": "MongoDB Atlas",
+      "quadrant": "infrastruktur",
+      "description": "Skybasert NoSQL database. Svært god verktøystøtte i rammeverk, ORMer, migreringsverktøy. Anbefales dersom man har behov for en NoSQL database. Brukt av Team Metadata. Mer info her: https://www.mongodb.com/docs/atlas/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2025-10-22",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Cloud Composer",
       "title": "Cloud Composer",
       "quadrant": "infrastruktur",
