@@ -418,6 +418,20 @@
       ]
     },
     {
+      "key": "Next.js",
+      "title": "Next.js",
+      "quadrant": "programmering",
+      "description": "Next.js er et rammeverk bygget på toppen av React som forenkler utvikling av moderne full-stack webapplikasjoner. Det tilbyr funksjoner som server-side rendering (SSR), static site generation (SSG) og API-ruter.\n\n**Fordeler**:\n- God integrasjon med React \n - Full stack rammeverk gir mulighet for kodegjenbruk i både back- og front-end\n\n**Ulemper**:\n- Kan føles tungt for små prosjekter\n- Krever forståelse av både frontend og backend-konsepter \n- Mange abstraksjoner på tvers av backend og frontend",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2024-05-29",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "MOVEit",
       "title": "MOVEit",
       "quadrant": "infrastruktur",
