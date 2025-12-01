@@ -508,6 +508,34 @@
       ]
     },
     {
+      "key": "npm",
+      "title": "npm",
+      "quadrant": "devops",
+      "description": "standardverktøyet for JavaScript/Node-prosjekter. Sliter ofte med langsomme installasjoner og sikkerhetsutfordringer. Vi anbefaler pnpm for raskere, mer pålitelig og sikker avhengighetshåndtering."
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2025-12-01",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
+      "key": "pnpm",
+      "title": "pnpm",
+      "quadrant": "devops",
+      "description": "Effektivt avhengighetshåndtering for Javascript/Node-prosjekter. Raskere installasjoner, mindre diskbruk og mulighet for sikrere håndtering av avhengigheter sammenlignet med npm.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2025-12-01",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Qodo",
       "title": "Qodo",
       "quadrant": "devops",
