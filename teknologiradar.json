@@ -598,20 +598,6 @@
       ]
     },
     {
-      "key": "BIP",
-      "title": "BIP (Byråets IT Plattform)",
-      "quadrant": "infrastruktur",
-      "description": "Applikasjonsplattform utviklet hos SSB. Utviklingen har ikke holdt fart med Nais, som tilbyr en langt bedre brukeropplevelse. Det var beregnet som en altfor stor investering å fortsette utviklingen av BIP, særlig når applikasjonutvikling er ikke SSBs kjernevirksomhet.",
-      "timeline": [
-        {
-          "moved": -1,
-          "ringId": "avstå",
-          "date": "2024-05-31",
-          "description": "Erstattes av Nais."
-        }
-      ]
-    },
-    {
       "key": "Google Artifact Registry",
       "title": "Google Artifact Registry",
       "quadrant": "devops",
