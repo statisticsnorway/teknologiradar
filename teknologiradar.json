@@ -511,7 +511,7 @@
       "key": "npm",
       "title": "npm",
       "quadrant": "devops",
-      "description": "standardverktøyet for JavaScript/Node-prosjekter. Sliter ofte med langsomme installasjoner og sikkerhetsutfordringer. Vi anbefaler pnpm for raskere, mer pålitelig og sikker avhengighetshåndtering."
+      "description": "standardverktøyet for JavaScript/Node-prosjekter. Sliter ofte med langsomme installasjoner og sikkerhetsutfordringer. Vi anbefaler pnpm for raskere, mer pålitelig og sikker avhengighetshåndtering.",
       "timeline": [
         {
           "moved": 0,
