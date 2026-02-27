@@ -48,6 +48,12 @@
       "description": "Populær og superskalerbar databaseteknologi for lagring av data. Kan også brukes til klargjøring og utforsking av data. Egner seg først og fremst for OLAP (Online Analytical processing) i motseting til OLTP (Online transaction processing). For sistnevnte bør man vurdere andre teknologier. BQ støtter SQL og kan kombineres med flere tjenester fra Google, noe som kan være en fordel i enkelte situasjoner. Mer info her: https://cloud.google.com/bigquery",
       "timeline": [
         {
+          "moved": 2,
+          "ringId": "avstå",
+          "date": "2024-10-28",
+          "description": "BigQuery er fully managed / serverless, superskalerbar, separerer lagring og compute. Data kan lastes inn fra mange ulike kilder og formater. Spørringer og analyser gjøres lett med standardspråk som Python og SQL.\n\nFor periodiske analyser/uttrekk typisk for SSB er det en god match. Støtte for external tables gjør det også enkelt å etterleve krav og føringer som legges på lagring og prosessering av data i SSB. BigQuery kan brukes bare for compute, mens data alltid lagres som filer i objektlager. Dette mønsteret har vært brukt med hell f.eks for aggregering fra mange små JSON-filer til en stor Parquet-fil.\n\nUt i fra tekniske parametere og kostnader ved fornuftig bruk vurderes BigQuery fortsatt som en god match for SSBs behov og arkitektur. Fornuftig bruk vil under normale omstendigheter også begrense risikoen forbundet ved leverandørbinding til et rimelig nivå.\n\nVi flytter likevel BigQuery fra "bruk" til "avstå", fordi endringer i internasjonalt politisk klima medfører risiko for at normale migreringsprosjekter vil ta for lang tid om en GCP exit blir påkrevd. I den skalaen som SSB opererer i finnes det også flere alternative teknologier: Polars, Duck DB, Duck Lake m.fl. Disse *skal* vurderes nøye først, og ny bruk (selv i kjente mønstere) *skal* meldes til arkitektur."
+        },
+        {
           "moved": 1,
           "ringId": "bruk",
           "date": "2024-10-28",
