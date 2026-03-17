@@ -62,4 +62,4 @@ Beskrivelsene burde bestå i det minste av:
 2. Styker og svakheter ved teknologien som fremhever hvorfor den er valgt.
 3. En lenke til hvor man finner mer informasjon om teknologien.
 4. En lenke til dokumentasjon om begrensninger for bruk i SSB om aktuelt.
-4. Eventuelle erfaringer fra eksperimentering eller produksjonssatt bruk i SSB.
+5. Eventuelle erfaringer fra eksperimentering eller produksjonssatt bruk i SSB.
