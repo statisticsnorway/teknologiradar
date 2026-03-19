@@ -102,17 +102,17 @@
       "description": "Denne tjenesten fra Google bygger på Apache Airflow for orkestrering av pipeline i Python. Med denne teknologien kan man automatisere produksjonsløp og samtidig få et brukergrensesnitt hvor man kan monitorere kjøringene. Mer info her: https://cloud.google.com/composer",
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "avstå",
-          "date": "2022-05-16",
-          "description": "Initiell plassering"
-        },
-        {
           "moved": 1,
           "ringId": "vurder",
           "date": "2025-05-02",
           "description": "Team Statistikktjenester vurderer å tilby Cloud Composer som et generelt automatiseringsverktøy."
-        }
+        },
+        {
+          "moved": 0,
+          "ringId": "avstå",
+          "date": "2022-05-16",
+          "description": "Initiell plassering"
+        }        
       ]
     },
     {
