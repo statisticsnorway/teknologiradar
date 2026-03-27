@@ -9,6 +9,8 @@ Radarløsningen vi bruker genererer radaren automatisk ved å lese en [fil](./te
 
 For de som ikke er kjent med denne typen arbeidsflyt, kalt [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), så er det også mulig å sende forslag til oss på [<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack logo for lenke til #adr kanal.">](https://ssb-norge.slack.com/archives/C02NRC2V83Z)
 
+Valg av teknologier i produktteamene i SSB skal gjøres innenfor rammene av våre ADRer. Om det skal bli satt nye standarder eller gjøres mer definerende teknologivalg på høyere nivå skal dette først forankres i en ADR før det gjøres oppdateringer til anbefalningene i denne radaren. Om en oppdatering til teknologiradaren gjøres på grunnlag av en ADR skal denne lenkes til i PRen.
+
 ---
 
 ## Informasjon om filstrukturen
@@ -36,7 +38,8 @@ Teknologier som ligger i denne *ringen* har høyeste modenhetsnivå. Teknologier
 Teknologier i denne *ringen* har ikke stor nok utbredelse. Det kan være mange grunner til det, både positive og negative. Som regel vil det være noe usikkerhet knyttet til modenheten på disse teknologiene, og om vi ønsker å bruke disse til fremtidige løsninger. Det anbefales derfor at teammedlemmer eksperimenterer med disse og foretar grundige vurderinger før de eventuelt tas i bruk. En teknologi burde ikke ligge her for lenge ettersom målet vil være å plassere den i "Bruk" eller "Avstå" om den har blitt produksjonssatt. Alternativt kan den flytte den ut av teknologiradaren om den ikke lenger er aktuell for bruk i SSB.
 
 `Avstå` \
-Teknologiene i denne ringen er produksjonssatt i SSB, men vi ønsker ikke å bygge nye systemer med disse teknologiene. Det er knyttet stor usikkerhet til teknologiene i denne *ringen*. Det kan være flere grunner til at vi ikke ønsker å ta teknologien i bruk i fremtiden. F.eks. at teknologien er på vei "ut av markedet". Selv om vi ønsker å bevege oss bort fra denne teknologien på SSB betyr ikke det at det alltid er feil valg. Men om man ønsker man å bruke denne teknologien selv om den står i avstå, burde man ha svært gode argumenter for det. Om en teknologi flyttes til "Avstå" skal det beskrives et alternativ som nå brukes for nye systemer som møter samme behovene som denne teknologien. 
+Teknologiene i denne ringen er produksjonssatt i SSB, men vi ønsker ikke å bygge nye systemer med disse teknologiene. Det er knyttet stor usikkerhet til teknologiene i denne *ringen*. Det kan være flere grunner til at vi ikke ønsker å ta teknologien i bruk i fremtiden. F.eks. at teknologien er på vei "ut av markedet". Selv om vi ønsker å bevege oss bort fra denne teknologien på SSB betyr ikke det at det alltid er feil valg. Men om man ønsker man å bruke denne teknologien selv om den står i avstå, burde man ha svært gode argumenter for det. Om en teknologi flyttes til "Avstå" skal det beskrives et alternativ som nå brukes for nye systemer som møter samme behovene som denne teknologien.
+At en teknologi flyttes til Avstå betyr ikke at det nå er en forventning om at alle systemer som allerede bruker teknologien skal migreres øyeblikkelig. Det er en anbefalning om å ikke bruke teknologien for nye løsninger, og at det nå burde eksistere en pragmatisk plan for utfasing av teknologien i eksisterende systemer. Denne vurderingen gjøres av teamene som eier systemene.
 
 ### Kvadrantene 
 
@@ -58,7 +61,7 @@ Alt som er relatert til sikkerhet.
 
 Beskrivelsene burde bestå i det minste av:
 
-1. En kort introduksjon av hvilket problem teknologien løser.
+1. En kort introduksjon av hvilket problem teknologien løser, og hvordan den skal brukes.
 2. Styker og svakheter ved teknologien som fremhever hvorfor den er valgt.
 3. En lenke til hvor man finner mer informasjon om teknologien.
 4. En lenke til dokumentasjon om begrensninger for bruk i SSB om aktuelt.
