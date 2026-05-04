@@ -700,6 +700,20 @@
           "description": "Initiell plassering"
         }
       ]
+    },
+    {
+      "key": "Github Copilot",
+      "title": "Github Copilot",
+      "quadrant": "devops",
+      "description": "Github Copilot er en AI-assistent for kode som er integrert i utviklerverktøy og GitHub, med støtte for kodeforslag, generering og agentiske funksjoner. Bruken skal følge ADR0035 - Retningslinjer for sikker koding og ADR0038 - Bruk av agentiske kodeverktøy i applikasjonsutvikling.",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "bruk",
+          "date": "2026-05-04",
+          "description": "Initiell plassering"
+        }
+      ]
     }
   ]
 }
