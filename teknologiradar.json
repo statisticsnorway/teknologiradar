@@ -42,6 +42,20 @@
       ]
     },
     {
+      "key": "Kafka",
+      "title": "Kafka",
+      "quadrant": "infrastruktur",
+      "description": "Avansert teknologi for formidling av data som hendelser i en strøm. Datavarighet kan konfigureres fra timer opptil uendelig. Kan også brukes som meldingsformidler eller køsystem. Kafka er åpenkilde teknologi som er portabel og skaper lite bindinger til leverandører. Kafka er tilgjengelig som SaaS gjennom Nais og deres underleverandør Aiven. Mer info her: https://docs.ssb.cloud.nais.io/persistence/kafka/",
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "vurder",
+          "date": "2026-05-06",
+          "description": "Initiell plassering"
+        }
+      ]
+    },
+    {
       "key": "Google BigQuery",
       "title": "Google BigQuery",
       "quadrant": "infrastruktur",
@@ -112,7 +126,7 @@
           "ringId": "avstå",
           "date": "2022-05-16",
           "description": "Initiell plassering"
-        }        
+        }
       ]
     },
     {
